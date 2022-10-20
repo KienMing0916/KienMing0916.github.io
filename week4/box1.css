@@ -1,0 +1,31 @@
+#mybox {
+    width: 200px;
+    border: 2px solid black;
+    background-color: rgb(106, 118, 185);
+    background-repeat: no-repeat;
+}
+  
+h1 {
+    color: rgb(255, 255, 255);
+}
+
+p {
+    color: rgb(255, 255, 255);
+}
+
+#firstdiv { 
+    height: 500px;
+    border: 5px solid black;
+    background-image: url('images/landscape.jpeg');
+    background-size: 100% 100%;
+   
+}
+
+#seconddiv { 
+    height: 500px;
+    border: 5px solid black;
+    background-size: 10%;
+    background-image: url('images/sademoji.jpeg');
+
+   
+}
