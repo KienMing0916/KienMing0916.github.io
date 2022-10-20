@@ -8,7 +8,7 @@ p{
 
 .container {
     display: flex;
-    font-family: 'Secular One', sans-serif;
+    font-family: 'Secular One', sans-serif; 
 }
 
 .container div {
@@ -17,6 +17,7 @@ p{
 
 #leftdiv {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #container1{
@@ -31,4 +32,11 @@ p{
 }
 
 #rightdiv {
+    background-image: url(../images/furniture.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    
+    
+    
 }
