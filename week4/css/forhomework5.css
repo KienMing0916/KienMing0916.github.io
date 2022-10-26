@@ -1,0 +1,86 @@
+html{
+    background-color: black;
+    height: 95vh;
+}
+
+h1 { 
+    font-size: 55px; 
+    font-weight: bold;
+    color: rgb(213, 219, 196);
+    font-family: 'Gentium Book Basic', serif;
+}
+
+span{
+    font-size: 55px; 
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(213, 219, 196);
+    font-family: 'Gentium Book Basic', serif;
+}
+
+h5 { 
+    font-size: 30px; 
+    margin-top: 220px;
+    color: rgba(255, 255, 255, 0.658);
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    font-size: 22px; 
+    font-family: 'Roboto', sans-serif;
+    color: rgb(163, 156, 130);
+    margin-top: -30px;
+    border-bottom: 2px solid rgb(254, 255, 223);
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+#emptyspace1{
+    flex: 1;
+}
+
+#emptyspace2{
+    flex: 1;
+}
+
+#container1{
+    flex: 3;
+}
+
+#person1{
+    flex: 2;
+    background-image: url(../images/person4.jpg);
+    background-size: contain;
+    height: 200px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#person2{
+    flex: 2;
+    background-image: url(../images/person5.jpg);
+    background-size: contain;
+    height: 200px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#person3{
+    flex: 2;
+    background-image: url(../images/person6.jpg);
+    background-size: contain;
+    height: 200px;
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-left: rgba(254, 255, 223, 0.658);
+}
+

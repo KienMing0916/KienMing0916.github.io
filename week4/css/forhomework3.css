@@ -1,0 +1,56 @@
+h1 { 
+    font-size: 45px; 
+    font-family: 'Secular One', sans-serif; 
+}
+
+h2 { 
+    font-size: 20px; 
+    font-family: 'Secular One', sans-serif; 
+}
+
+p {
+    font-size: 16px; 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height:95vh;
+    display: flex;
+}
+
+#containerleft {
+    flex: 1.1;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: left;
+    height: 550px;
+    background-image: url(../images/computer.jpg);
+    background-size: contain;
+    background-position: left; 
+    background-repeat: no-repeat;
+}
+
+#containerright {
+    flex: 1;
+}
+
+#innerright{
+    border: 8px solid black;
+    border-right: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    float: right;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 200px;
+    padding-right: 50px;
+    text-align: right   ;
+    width: max-content;
+    height: max-content;
+}
+
+
