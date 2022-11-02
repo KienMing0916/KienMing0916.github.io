@@ -1,0 +1,155 @@
+h1, h3{
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: 5px solid black;
+  background-color: rgb(234, 76, 76);
+}
+
+.headerpart {
+  display: flex;
+  padding: 20px;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  width: 150px;
+  border: 3px solid black;
+}
+
+#phonenumber{
+  margin: auto 0px;
+  background-color: white;
+  width: 300px;
+  height: max-content;
+  margin-left: auto;
+  background-color: rgb(234, 155, 76);
+  border: 3px solid black;
+}
+
+.menu{
+  line-height: 0;
+  background-color: rgb(181, 181, 239);
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.imageslideshow {
+  background-color: aqua;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  height: 200px;
+  border: 3px solid black;
+}
+
+.featcontainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+#feat1, #feat2, #feat3, #feat4{
+  background-color: rgb(181, 239, 198);
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+
+.contentbody{
+  display: flex;
+}
+
+#textcontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 65%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+#sidebar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+  width: 35%;
+  height: 200px;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+.footer{
+  line-height: 0;
+  background-color: blue;
+  padding: 20px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+@media screen and (max-width: 600px) {
+  .headerpart {
+    flex-wrap: wrap;
+  }
+
+  #leftside{
+    width: 100%;
+  }
+
+  #logo{
+    margin: auto;
+  }
+
+  #rightside{
+    width: 100%;
+    
+  }
+
+  #phonenumber{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  #menu{
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .contentbody {
+    flex-wrap: wrap;
+  }
+
+  #textcontent{
+    width: 100%;
+  }
+
+  #sidebar{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .featcontainer {
+    flex-wrap: wrap;
+  }
+
+  #feat1, #feat2, #feat3, #feat4{
+    line-height: 0;
+    width: 100%;
+  }
+}
