@@ -2,11 +2,7 @@ html{
   background-color: #ddd;
 }
 
-p{
-  font-size: 25px;
-}
-
-.logo { 
+.logo {
   padding: 20px 0;
   display: flex;
   grid-area: logo; 
@@ -19,81 +15,85 @@ p{
   text-align: center;
 }
 
-
-.menu { 
-  padding: 20px 0;
+.menu {
+  padding: 20px;
   border: 3px solid black;
   position: relative;
+  left: 20%;
   top:20%;
   grid-area: menu; 
   height: max-content;
+  width: max-content;
   background-color: rgb(221, 141, 141);
-  display: flex;
+  display: flex; 
 }
 
 #menubar a{
-  color: #f2f2f2;
-  text-align: center;
+  color: #000000;
+  text-align: right;
   padding: 14px 16px 14px 16px;
   text-decoration: none;
-  flex: 1;
 }
 
 #menubar a:hover {
-  height: max-content;
   background-color: #ddd;
   color: black;
 }
 
 .img { 
-  display: flex;  
-  grid-area: image; 
-  background-image: url("../img/cocacolaback.jpg");
-  background-size: contain;
-  height: 200px;
+  grid-area: img; 
+  background-image: url("../img/star.jpg");
+  background-size: 25%;
+  height: 400px;
+  
 }
-.feat1 { 
+
+.feat1 {
   grid-area: feat1; 
   background-color: rgb(221, 141, 141);
   border: 3px solid black;
 }
+
 .feat2 {
-  grid-area: feat2;
+  grid-area: feat2; 
   background-color: rgb(221, 141, 141);
   border: 3px solid black;
 }
-.feat3 { 
+
+.feat3 {
   grid-area: feat3; 
   background-color: rgb(221, 141, 141);
   border: 3px solid black;
 }
+
 .side { 
   grid-area: side; 
-  background-color: rgb(221, 141, 141);color: #f2f2f2;
-  height: max-content;
-  
+  background-color: rgb(221, 141, 141);
+  height: max-content;   
+  color: #000000;
 }
 
-#link1, #link2, #link3, #link4{ 
+#link1, #link2, #link3, #link4, #link5{ 
   padding: 20px;
   border: 3px solid black;
-}
-
-.side a{
-  color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px 14px 16px;
   text-decoration: none;
 }
 
-.text { 
+.side a{
+  color: #000000;
+  text-decoration: none;
+}
+
+.text {
   padding: 20px;
   grid-area: text; 
   background-color: rgb(221, 141, 141);
   text-align: center;
   border: 3px solid black;
 }
-.footer { 
+
+.footer {
   grid-area: footer; 
   background-color: rgb(221, 141, 141);
   padding: 20px;
@@ -101,23 +101,21 @@ p{
 }
 
 .grid-container {
-display: grid;
-grid-template-areas:
-  'logo logo menu menu menu menu'
-  'image image image image image image'
-  'feat1 feat2 feat2 feat2 feat3 feat3'
-  'side side side text text text'
-  'footer footer footer footer footer footer';
-gap: 10px;
-background-color: #707070;
-padding: 10px;
-max-width: 1536px;
-margin: auto;
+  display: grid;
+  grid-template-areas:
+    "logo logo menu menu menu menu"
+    "img img img img img img"
+    "feat1 feat1 feat2 feat2 feat3 feat3"
+    "side side text text text text"
+    "footer footer footer footer footer footer";
+  gap: 10px;
+  padding: 10px;
+  background-color: #ffa6a6;
+  margin: 20px;
 }
 
 .grid-container > div {
-text-align: center;
-
-margin: 20px;
-font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
 }
