@@ -1,0 +1,138 @@
+html{
+background-color: #ddd;
+}
+
+h3{
+    color: red;
+}
+
+#container {
+    margin: auto;
+  }
+
+.header {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin: 20px;
+    height: 50px;
+}
+
+#leftheader {
+    display: flex;
+} 
+
+#rightheader {
+    display: flex;
+    margin-left: auto;
+} 
+
+.profile{
+    display: flex;
+}
+
+#profile1{
+    position: relative;
+    margin-top: -10px;
+}
+
+#leftheader a, #rightheader a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px 14px 16px;
+    text-decoration: none;
+}
+
+#leftheader p{
+    color: black;
+    text-align: center;
+    width: 100px;
+}
+  
+.header a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.content{
+    position: relative;
+    height: 500px;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/jungle.jpg");
+}
+
+.centered{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+}
+
+.centered a{
+    color: white;
+    text-align: center;
+    left: 50%;
+    transform: translatex(-50%);
+    text-decoration: none;
+}
+
+  .worldnews{
+    text-align: center;
+  }
+
+  #location{
+    position: relative;
+    top: 5px;
+  }
+
+  #locationtext{
+    margin-right: 20px;
+  }
+
+  #calendar{
+    position: relative;
+    top: 5px;
+    margin-left: 20px;
+  }
+
+  .bottomleft {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+.bottomrightbox {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    border: 3px solid white;
+    border-style: dotted;
+    width: 300px;
+    padding: 10px;
+    color: white;
+  }
+
+#nextstoryline{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+
+#nextstoryleft, #nextstoryright{
+    flex: 1;
+}
+
+#rightarrow{
+    float: right;
+    position: relative;
+    margin-top: 20px;
+}
+
