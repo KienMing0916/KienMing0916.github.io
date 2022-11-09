@@ -325,7 +325,7 @@ html, body{
 }
 
 .pricingbox h2{
-    font-size: 2.5vw;
+    font-size: 2vw;
     text-align: center;
     margin-bottom: 5vw;
 }
@@ -339,6 +339,7 @@ html, body{
     color: blue;
     font-size: 2.5vw;
     text-align: center;
+    margin-bottom: 3vw;
 }
 
 .buttontypethree {
@@ -346,7 +347,6 @@ html, body{
     color: rgb(62, 62, 62);
     border: 2px solid#490050;
     text-align: center;
-    text-transform: uppercase;
     border-radius: 30px;
     padding: 1vw 2vw 1vw 2vw;
     background-color: white;
@@ -362,7 +362,6 @@ html, body{
     color: white;
     border: none;
     text-align: center;
-    text-transform: uppercase;
     border-radius: 30px;
     padding: 1vw 2vw 1vw 2vw;
     background-image:linear-gradient(to right, #09008a, #6358fb);  
