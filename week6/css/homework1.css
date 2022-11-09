@@ -1,0 +1,520 @@
+html, body{
+    margin:0;
+}
+
+.container{
+    max-width: 1536px;
+}
+
+.partone {
+    background-image: url("../img/Bg\ Shape@2x.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 55%;
+}
+
+.header{
+    display: flex;
+    height: max-content;
+}
+
+#emptycolumn{
+    width: 15vw;
+}
+
+#leftlogo{
+    display: flex;
+    width: 30vw;
+    margin-top: 1vw;
+}
+
+#marketinglogo{
+    max-width: 5vw;
+    height: auto;
+}
+
+#leftlogo h1{
+    margin-left: 1vw;
+    font-size: 2.5vw;
+    padding: 1vw;
+}
+
+#rightmenu{
+    display: flex;
+    width: 55vw;
+    justify-content: center;
+    margin-top: 2vw;
+}
+
+#rightmenu a{
+    color: white;
+    font-size: 1.2vw;
+    text-align: right;
+    padding: 2vw 1vw 1vw 1vw;
+    text-decoration: none;
+}
+  
+#rightmenu a:hover {
+    color: rgb(50, 0, 110);
+    text-decoration: underline;
+}
+
+.partonebody{
+    display: flex;
+}
+
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+    justify-content: center;
+}
+
+#sidebar div{
+    height: 3vw;
+}
+
+#partonecontent{
+    width: 40%;
+    padding: 6vw 0;
+}
+
+#partonecontent h2{
+    font-size: 3.5vw;
+    line-height: 0;
+}
+
+#partonecontent h1{
+    font-size: 4.5vw;
+}
+
+#partonecontent p{
+    font-size: 1.2vw;
+}
+
+.buttontypeone {
+    font-size: 1vw;
+    margin-top: 2vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 2vw 1vw 2vw;
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+    cursor:pointer;
+}
+
+.buttontypeone:hover {
+    text-decoration: underline;
+}
+
+#partoneimage{
+    width: 45%;
+}
+
+#phonenotification{
+    max-width: 40vw;
+    height: auto;
+}
+
+.partonefooter{
+    display: flex;
+    justify-content: center;
+}
+
+#mouse{
+    max-width: 5vw;
+}
+
+.parttwo{
+    background-image: url("../img/who\ we\ are\ background@2x.png");
+    display: flex;
+    padding: 2vw 0 0 0;
+}
+
+#parttwoleft{
+    display: flex;
+    justify-content: center;
+    width: 55%;
+}
+
+#biography{
+    max-width: 45vw;
+    max-height: 45vw;
+}
+
+#parttworight{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#parttworight h4{
+    font-size: 1.8vw;
+    color: #6358fb;
+    line-height: 0;
+}
+
+#parttworight h1{
+    font-size: 3vw;
+    line-height: 0;
+}
+
+#parttworight p{
+    font-size: 1.4vw;
+}
+
+.partthree{
+    margin-top: 5vw;
+}
+
+#partthreeheader{
+    display: flex;
+}
+
+#emptycolumn2{
+    width: 10%;
+}
+
+#partthreetitle{
+    width: 90%;
+}
+
+#partthreetitle h4{
+    font-size: 2.2vw;
+    color: #6358fb;
+    line-height: 0;
+}
+
+#partthreetitle h1{
+    font-size: 3.5vw;
+}
+
+.servicesrowone{
+    display: flex;
+    background-image: url("../img/who\ we\ are\ background@2x.png");
+}
+
+.servicesrowtwo{
+    display: flex;
+    margin-top: 5vw;
+    background-image: url("../img/who\ we\ are\ background@2x.png");
+}
+
+.emptycolumn8width{
+    width: 8%;
+}
+
+.emptycolumn4width{
+    width: 4.5%;
+}
+
+.servicebox{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 3vw;
+    background-color: white;
+    border: rgb(195, 195, 195) solid 10%;
+    border-radius: 10%;
+    box-shadow: 0 1vw 1vw 0 rgb(150, 150, 150);
+    text-align: justify;
+    position: relative;
+}
+
+.servicebox h2{
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.servicebox p{
+    margin-top: 1.5vw;
+    font-size: 1vw;
+    margin-bottom: 3vw;
+}
+
+.buttontypetwo {
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 2vw 1vw 2vw;
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+    cursor:pointer;
+    position: absolute;
+    right: 10%;
+    bottom: 5%;
+}
+
+.buttontypetwo:hover {
+    text-decoration: underline;
+}
+
+.servicebox img {
+    width: 25%;
+    display: flex;
+    margin: auto;
+}
+
+.partfour{
+    background-color: #dedcf0;
+    margin-top: 10vw;
+}
+
+#partfourheader{
+    padding: 2vw;
+    text-align: center;
+}
+
+#partfourheader h4{
+    font-size: 1.8vw;
+    color: #6358fb;
+    line-height: 0;
+}
+
+#partfourheader h1{
+    font-size: 3.5vw;
+}
+
+.pricingrow{
+    display: flex;
+}
+
+.pricingbox{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 10%;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 10vw;
+}
+
+.pricingbox{
+    width: 25%;
+    height: 30vw;
+    box-sizing: border-box;
+    padding: 2.2vw;
+    background-color: white;
+    border-radius: 5%;
+    text-align: justify;
+    position: relative;
+    margin-bottom: 5vw;
+}
+
+.pricingbox h2{
+    font-size: 2.5vw;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.pricingbox p{
+    font-size: 1.1vw;
+    text-align: center;
+}
+
+.pricingbox h3{
+    color: blue;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.buttontypethree {
+    font-size: 1vw;
+    color: rgb(62, 62, 62);
+    border: 2px solid#490050;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 2vw 1vw 2vw;
+    background-color: white;
+    cursor:pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+}
+
+.buttontypefour {
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 2vw 1vw 2vw;
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+    cursor:pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 15%;
+}
+
+.buttontypethree:hover, .buttontypefour:hover {
+    text-decoration: underline;
+}
+
+.dotdotdot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dotdotdot a {
+    cursor: pointer;
+    height: 1vw;
+    width: 1vw;
+    background-color: rgb(76, 0, 95);
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0.5vw;
+    margin-bottom: 5vw;
+}
+  
+.dotdotdot a:hover {
+    background-color: white;
+    height: 1vw;
+    width: 1vw;
+}
+
+.partfive{
+    padding-top: 10vw;
+    text-align: center;
+    background-image: url("../img/footerbackground.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+#partfivecontent h3{
+    font-size: 2vw;
+    color: #6358fb;
+}
+
+#partfivecontent h2{
+    font-size: 3vw;
+    line-height: 0;
+    font-weight: normal;
+}
+
+span{
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+#dropemailrow {
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+  }
+  
+#dropemailrow input {
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
+    border: none;
+    padding: 1vw;
+    width: 70%;
+}
+
+.buttontypefive {
+    font-size: 1vw;
+    margin-left: 2vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 2vw 1vw 2vw;
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+    cursor:pointer;
+}
+
+.footer{
+    margin-top: 20vw;
+    display: flex;
+}
+
+#footercontent{
+    width: 40%;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+#footercontent h1{
+    font-size: 3vw;
+    color: white;
+}
+
+#footercontent h2{
+    font-size: 2.5vw;
+    color: white;
+    line-height: 0;
+}
+
+#socialmedialogos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#socialmedialogos img{
+    padding: 2vw;
+    max-width: 1vw;
+    max-height: 1vw;
+}
+
+#quicklinks{
+    width: 15%;
+    text-align: left;
+}
+
+#hours{
+    width: 15%;
+    text-align: left;
+}
+
+#contact{
+    width: 30%;
+    text-align: left;
+}
+
+#contact img{
+    max-width: 1vw;
+    max-height: 1vw;
+}
+
+#quicklinks h4, #hours h4, #contact h4{
+    color: white;
+    font-size: 1.5vw;
+}
+
+#quicklinks div, #hours div, #contact div{
+    color: white;
+    font-size: 1vw;
+    line-height: 200%;
+}
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+  
