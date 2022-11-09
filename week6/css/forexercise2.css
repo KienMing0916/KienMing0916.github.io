@@ -8,7 +8,7 @@ html{
   grid-area: logo; 
   background-color: rgb(221, 141, 141);
   background-size: 200px;
-  height: 100px;
+  height: 5vw;
   border: 3px solid black;
   border-radius: 30px;
   justify-content: center;
@@ -16,7 +16,7 @@ html{
 }
 
 .menu {
-  padding: 20px;
+  padding: 2vw;
   border: 3px solid black;
   position: relative;
   left: 20%;
@@ -31,7 +31,7 @@ html{
 #menubar a{
   color: #000000;
   text-align: right;
-  padding: 14px 16px 14px 16px;
+  padding: 1vw 1.1vw 1vw 1.1vw;
   text-decoration: none;
 }
 
@@ -44,7 +44,7 @@ html{
   grid-area: img; 
   background-image: url("../img/star.jpg");
   background-size: 25%;
-  height: 400px;
+  height: 20vw;
   
 }
 
@@ -117,5 +117,5 @@ html{
 .grid-container > div {
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  font-size: 30px;
+  font-size: 1.5vw;
 }
