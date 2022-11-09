@@ -124,8 +124,24 @@ html, body{
     justify-content: center;
 }
 
+#whitecircle{
+    height: 8vw;
+    width: 8vw;
+    margin: auto;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 1vw 1vw 0 rgb(150, 150, 150);
+    position: relative;
+
+}
+
 #mouse{
-    max-width: 5vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    max-width: 4vw;
 }
 
 .parttwo{
