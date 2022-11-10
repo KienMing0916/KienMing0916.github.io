@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 7 Exercise 3</title>
+        <link href="css/forexercise3.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
+    </head>
+    <body>
+        <div class="container">
+            <form id="backgroundcolor" name="myForm" action="combineexercise.html">
+                <fieldset id="legendfieldset">
+                <legend><h1>Farmer Registration Form</h1></legend>
+                <div class="rowname">
+                    <h2>Name</h2>
+                    <div class="inputrowname">
+                        <input id="firstname" type="text" name="firstname" placeholder="First" required>
+                        <input id="lastname" type="text" name="lastname" placeholder="Last" required>
+                    </div>
+                </div>
+                <div class="rowemail">
+                    <h2>Email</h2>
+                    <input id="email" type="text" name="email" required>
+                </div>
+                <div class="rowphonenumber">
+                    <h2>Phone</h2>
+                    <input id="phonenumber" type="text" name="phonenumber" placeholder="### ### ####" required>
+                </div>
+                <div class="rowstreetline1">
+                    <h2>Farmer Address</h2>
+                    <input id="addressline1" type="text" name="streetaddline1" placeholder="Street Address" required>
+                </div>
+                <div class="rowstreetline2">
+                    <input id="addressline2" type="text" name="streetaddline2" placeholder="Street Address Line 2" required>
+                </div>
+                <div class="rowcity">
+                    <div class="inputrowcity">
+                        <input id="city" type="text" name="city" placeholder="City" required>
+                        <input id="region" type="text" name="region" placeholder="Region" required>
+                    </div>
+                </div>
+                <div class="rowpostal">
+                    <div class="inputrowpostal">
+                        <input id="postal" type="text" name="postal" placeholder="Postal / Zip Code" required>
+                        <select id="romania" name="Romania">
+                            <option value="Romania">Romania</option>
+                            <option value="ABC">ABC</option>
+                            <option value="DEF">DEF</option>
+                            <option value="GHI">GHI</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="buttonsendrow">
+                    <input id="buttontypeone" type="button" value="SEND">
+                </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+.container{
+    margin: auto;
+    max-width: 800px;
+    text-align: left;
+    padding: 1vw;
+    color: rgb(0, 86, 23);
+}
+
+#backgroundcolor{
+    background-color: rgb(186, 255, 240);
+}
+
+#legendfieldset{
+    border: 3px solid black;
+}
+
+h1{
+    font-size: 3vw;
+    padding: 0 1vw 0 1vw;
+    line-height: 0;
+}
+
+#firstname, #city, #postal{
+    margin-right: 1vw;
+}
+
+#lastname, #region, #romania{
+    margin-left: 1vw;
+}
+
+input[type=text], #romania{
+    font-size: 1vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    width: 100%;
+    border:1px solid rgb(0, 86, 23);
+    background-color: rgb(213, 255, 255);
+}
+
+.rowname, .rowemail, .rowphonenumber, .rowstreetline1, .rowstreetline2, .rowcity, .rowpostal{
+    padding: 1vw 1vw 1vw 1vw;
+}
+
+.inputrowname{
+    display: flex;
+}
+
+.inputrowcity{
+    display: flex;
+}
+
+.inputrowpostal{
+    display: flex;
+}
+
+.buttonsendrow{
+    display: flex;
+    justify-content: center;
+}
+
+#buttontypeone{
+    width: 20%;
+    font-size: 1vw;
+    margin-top: 2vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: rgb(0, 106, 71); 
+    cursor:pointer;
+}
+
+#buttontypeone:hover {
+    text-decoration: underline;
+}

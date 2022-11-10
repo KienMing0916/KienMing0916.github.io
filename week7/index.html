@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Week 7 Exercise 1</title>
+        <link href="css/forindex.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>   
+    </head>
+
+    <body>
+        <div class="logoheader">
+            <i id="heartlogo" class="fa-solid fa-heart"></i>
+        </div>
+
+        <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa-solid fa-heart"></i>
+          </a>
+        </div>
+        
+        <div id="exercisetitle">
+          <h2>Responsive Topnav Example</h2>
+          <p>Resize the browser window to see how it works.</p>
+        </div>
+        
+        <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script> 
+    </body>
+</html>
+
+
+<!-- <body>
+    <i class="fa-solid fa-house"></i>
+    <i class="fa-solid fa-heart"></i>
+    <i class="fa-solid fa-stapler"></i>
+    <i class="fa-solid fa-poo"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-solid fa-heart-crack"></i>
+</body> -->
