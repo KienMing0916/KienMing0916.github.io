@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kien Ming Assignment 1</title>
+        <link rel="icon" type="image/x-icon" href="img/smileicon.png">
+        <link href="css/homepage.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- overlay -->
+            <div id="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="homepage.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="myfavourite.html">My Favourite</a>
+                    <a href="mytravel.html">My Travel</a>
+                    <a id="contactbox2" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- headerpart -->
+            <div class="topnav" id="myTopnav">
+                <div class="lefttopnav">
+                    <img id="kmlogo" src="img/km.png" alt="logo" height="70px">
+                    <a href="homepage.html">KienMing</a>
+                </div>
+                <div class="middletopnav">
+                    <a href="homepage.html">Home</a> 
+                    <div class="dropdown">
+                        <a href="aboutme.html">About Me</a>
+                        <div class="dropdown-content">
+                          <a href="#">Introduction</a>
+                          <a href="#">Personal Information</a>
+                          <a href="#">Schools and University College I attended</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="myfavourite.html">My Favourite</a>
+                        <div class="dropdown-content">
+                        <!-- <a href='myOtherPage.html#myDivId'>myLink</a> -->
+                          <a href="#">Badminton</a>
+                          <a href="#">Basketball</a>
+                          <a href="#">Football</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="mytravel.html">My Travel</a>
+                        <div class="dropdown-content">
+                          <a href="#">Sekinchan, Selangor</a>
+                          <a href="#">Malacca</a>
+                          <a href="#">Pulau Langkawi, Kedah</a>
+                          <a href="#">Thailand</a>
+                          <a href="#">Taiwan</a>
+                          <a href="#">Singapore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="righttopnav">
+                    <a id="contactbox" href="contact.html">Contact</a>
+                    <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- part1 introduction -->
+            <div class="partoneintroduction">
+                <div class="partoneintroductionleft">
+                    <h2>Tan Kien Ming</h2>
+                    <p>
+                        Hi, my name is Tan Kien Ming, I&apos;m a current student from<br> 
+                        New Era University College and I&apos;m studying Software Engineering. 
+                        <br><br>
+                        A whole website just about me. You can get to know me better through this website.
+                        <br><br>
+                    </p>
+                    <a href="homepage.html#parttwoaboutme">
+                        <button class="buttongetstarted">GET STARTED</button> 
+                    </a>
+                </div>
+                <div class="partoneintroductionright">
+                    <img id="kienmingpic" src="img/kienming.jpg" alt="picture" height="120px" width="120px">
+                </div>
+            </div>
+            <!-- part2 aboutme -->
+            <div class="parttwoaboutme" id="parttwoaboutme">
+                <div class="topnavspace"></div>
+                <h2>About Me</h2>
+                <p id="keepsmile">Keep smiling, because life is a beautiful thing and there's so much to smile about.</p>
+                <div class="aboutmecontainer">
+                    <div class="parttwoaboutmeleft">
+                        <div class="basicinformationbox">
+                            <h3>Basic Information</h3>
+                            <p>Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Tan Kien Ming</p>
+                            <p>Date of birth: 16 September 2002</p>
+                            <p>Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Male</p>
+                        </div>
+                    </div>
+                    <div class="parttwoaboutmeright">
+                        <div class="imgandbtn">
+                            <img id="catpic" src="img/hi.jpg" alt="picture" height="400px" width="400px">
+                            <div id="wrapbuttondiv">
+                                <a href="aboutme.html">
+                                    <button class="buttonaboutme">GO</button> 
+                                </a>
+                            </div>
+                        </div>
+                        <h4>Wow, a whole page just about me!</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="parttwofooter">
+                <h5>
+                    You'll never know unless you walk in my shoes.
+                    You'll never know everybody <br>sees what they wanna see.
+                </h5>
+            </div>
+            <!-- part3 my favourite -->
+            <div class="partthreemyfavourite">
+                <h2>My Favourite</h2>
+                <p>
+                    There are many things I am interested in, but the one that attracts me the most is sports. <br>
+                    Exercising myself and watching sports programs play a huge role in my daily life, and without<br>
+                     this important thing, I would feel inadequate.<br>
+                </p>
+                <div class="sportmanimg">
+                    <a href="homepage.html">
+                        <img class="sportmanbox" src="img/ziijia.jpg" alt="ziijiaimg" height="300px" width="200px">
+                    </a>
+                    <a href="homepage.html">
+                        <img class="sportmanbox" src="img/kd.jpg" alt="kdimg" height="300px" width="200px">
+                    </a>
+                    <a href="homepage.html">
+                        <img class="sportmanbox" src="img/messi.jpg" alt="messiimg" height="300px" width="200px">
+                    </a>
+                </div>
+                <a href="myfavourite.html">
+                    <button class="buttomyfavourite">VIEW DETAILS</button> 
+                </a>
+            </div>
+            <!-- part4 travel backgound -->
+            <div class="partfourbeautifulbackground">
+                <img id="travelback" src="img/travelback.jpg" alt="picture">
+                <div class="partfourfooter">
+                    <h5>The richness I achieve comes from Nature, the source of my inspiration.</h5>
+                </div>
+            </div>
+            <!-- part5 my travel -->
+            <div class="partfivetravel">
+                <h2>My Travel<br>(Place I visited)</h2>
+                <p>
+                    “Travel makes one modest. You see what a tiny place you occupy in the world”<br>
+                    &mdash; Gustave Flaubert<br>
+                </p>
+                <div class="partfivetravelrowone">
+                    <img class="travelimg1" src="img/sekinchan1.jpg" alt="sekinchan">
+                    <img class="travelimg1" id="travelimg2" src="img/melaka3.jpg" alt="malacca">
+                    <img class="travelimg1" src="img/langkawi1.jpg" alt="langkawi">
+                </div>
+                <div class="partfivetravelrowtwo">
+                    <img class="travelimg1" src="img/thailand1.jpg" alt="thailand">
+                    <img class="travelimg1" id="travelimg3" src="img/taiwan1.jpg" alt="taiwan">
+                    <img class="travelimg1" src="img/singapore1.jpg" alt="singapore">
+                </div>
+                <a href="mytravel.html">
+                    <button class="buttomytravel">VIEW DETAILS</button> 
+                </a>
+            </div>
+            <!-- part6 contact -->
+            <div class="partsixcontact">
+                <div class="partsixcontactleft">
+                    <div class="contactform">
+                        <h2>Get In Touch</h2>
+                        <form name="contact_form" action="#">
+                            <div class="rownameandphone">
+                                <input id="name" type="text" name="name" placeholder="Name" required>
+                                <input id="phonenumber" type="text" name="phonenumber" placeholder="Phone" required>
+                            </div>
+                            <div class="rowemail">
+                                <input id="email" type="email" name="email" placeholder="Email" required>
+                            </div>
+                            <div class="rowmessage">
+                                <textarea id="message" name="message" rows="4" placeholder="message" required=""></textarea>
+                            </div>
+                            <a href="mytravel.html">
+                                <button class="buttonsend">SEND</button> 
+                            </a>
+                        </form>
+                    </div>
+                </div>
+                <div class="partsixcontactright">
+                    <h2>Contact</h2>
+                    <p>
+                        Any questions?<br>
+                        Let's get the conversation started.<br>
+                        Tell me about yourself and I&apos;ll get in<br>
+                        touch with you soon.<br>
+
+                    </p>
+   
+                </div>
+            </div>
+            <div class="partsixdetailfooter">
+                <a href="tel:+601169611730">
+                    <div class="detailrow">
+                      <div class="circle2">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <h4>PHONE</h4>
+                    </div>
+                    <h3>+60 (11)-69611730</h3>
+                </a>
+                <a href="mailto: tankienming0916@newera.edu.my" target="_blank">
+                    <div class="detailrow">
+                      <div class="circle2">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <h4>EMAIL</h4>
+                    </div>
+                    <h3>tankienming0916@newera.edu.my</h3>
+                </a>
+                <a href="https://goo.gl/maps/nFGAqJxbDQwRGauS7" target="_blank">
+                    <div class="detailrow">
+                        <div class="circle2">
+                        <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <h4>ADDRESS</h4>
+                    </div>
+                    <h3>
+                        No. 127, Jalan 7/5, Seksyen 9, 43650, Bandar Baru Bangi, Selangor
+                    </h3>
+                </a>
+              </div>
+            <!-- part7 footer -->
+            <div class="partsevenfooter">
+                <div class="socialmediarow">
+                    <h3>Kien Ming</h3>
+                    <div class="socialmedialogo">
+                        <a href="https://www.facebook.com/profile.php?id=100007155271525" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                        </a>
+                        <a href="https://twitter.com/kienming0916" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                        </a>
+                        <a href="https://www.instagram.com/kienming_916/" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                        </a>
+                      </div>   
+                </div>
+                <div class="copyright">
+                    <div class="copyrightleft">
+                        <p>Copyright © 2022 KienMing. All Rights Reserved.</p>
+                    </div>
+                    <div class="copyrightright">
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- for top navigartion bar  -->
+        <script>
+            function openNav() {
+            document.getElementById("overlay").style.width = "100%";
+            }
+        
+            function closeNav() {
+            document.getElementById("overlay").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>

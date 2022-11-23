@@ -1,0 +1,954 @@
+html, body{
+    scroll-behavior: smooth;
+    margin:0;
+}
+
+h2, h3, h4{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Roboto';
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #3F72AF;
+}
+
+.lefttopnav, .middletopnav, .righttopnav{
+    display: flex;
+}
+
+.lefttopnav{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.middletopnav, .righttopnav{
+    font-family: 'Lato', sans-serif;
+}
+
+.righttopnav{
+    padding: 0 5vw 0 0;
+}
+
+#kmlogo{
+    margin-top: -3px;
+    padding: 0 0 0 4vw;
+}
+
+.lefttopnav a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f2f2f2;
+    padding: 18px 0;
+}
+
+.middletopnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 1.5vw;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(0, 137, 201);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#contactbox {
+    border-radius: 5px;
+    background-color: #112D4E;
+    margin: 10px 0 10px 0;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 1.5vw 22px 1.5vw;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hiddenbar {
+    border-radius: 10px;
+    background-color: #112D4E;
+    margin: 10px 0 10px 0;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 15px 22px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.middletopnav a:hover {
+    color: #112D4E;
+}
+
+.righttopnav a:hover {
+    color: #3F72AF;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+#overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+  
+#overlay a:hover, #overlay a:focus {
+    color: #00d0ff;
+    font-size: 40px;
+}
+  
+#overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.partoneintroduction{
+    display: flex;
+    background-color: #112D4E;
+    color: white;
+}
+
+.partoneintroductionleft{
+    width: 60%;
+    padding: 5vw 0 0 10vw
+}
+
+.partoneintroductionleft h2{
+    font-size: 3.5vw;
+    line-height: 2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.partoneintroductionleft p{
+    font-size: 1.5vw; 
+    line-height: 1.5;
+}
+
+.buttongetstarted, .buttomyfavourite{
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 1vw 3vw 1vw 3vw;
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+    cursor:pointer;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+.buttomytravel{
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: #112D4E;
+    cursor:pointer;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.buttonsend{
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: #112D4E;
+    cursor:pointer;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.buttongetstarted:hover, .buttomyfavourite:hover{
+    background-image:linear-gradient(to bottom, #6358fb, #09008a); 
+}
+
+.buttomytravel:hover, .buttonsend:hover{
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+}
+
+.partoneintroductionright{
+    width: 40%;
+    margin: 7vw;
+}
+
+#kienmingpic{
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.topnavspace{
+    height: 55px;
+    width: 100%;
+    background-color: #112D4E;
+}
+
+
+.parttwoaboutme{
+    display:inline-block;
+    width: 100%;
+    background-color: #DBE2EF;
+    padding-bottom: 3vw;
+}
+
+.parttwoaboutme h2{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.5;
+    padding: 0.5vw;
+    margin-bottom: -1vw;
+}
+
+.parttwoaboutme p{
+    text-align: center;
+    font-size: 1.5vw; 
+    line-height: 1.5;
+}
+
+.aboutmecontainer{
+    display: flex;
+}
+
+.parttwoaboutmeleft{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.parttwoaboutmeright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parttwoaboutmeright h4{
+    font-size: 2vw;
+    line-height: 0;
+}
+
+.imgandbtn{
+    display: flex; 
+    height: 150px;
+}
+
+#catpic{
+    margin: 2vw; 
+    max-width: 120px;
+    max-height: 120px;
+    width: 50%;
+}
+
+#wrapbuttondiv{
+    margin-left: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.buttonaboutme{
+    font-size: 1vw;
+    min-width: 5vw;
+    min-height: 5vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50px;
+    background-color: #112D4E; 
+    cursor:pointer;
+}
+
+.buttonaboutme:hover {
+    background-image:linear-gradient(to right, #09008a, #6358fb);
+}
+
+.basicinformationbox{
+    background-color: #112D4E;
+    border: double black 1.5vw;
+    color: white;
+    width: 70%;
+    height: max-content;
+    margin-bottom: 3vw;
+}
+
+.basicinformationbox h3{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.basicinformationbox p{
+    font-size: 1.3vw;
+    text-align: left;
+    padding-left: 9vw;
+}
+
+.parttwofooter, .partfourfooter{
+    font-family: 'Dancing Script', cursive;
+    margin-top: -5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2.2vw;
+    text-align: center;
+    padding: 0.2vw 0;
+}
+
+.partthreemyfavourite{
+    display: inline-block;
+    width: 100%;
+    background-color: #B9E0FF;
+    text-align: center;
+}
+
+.partthreemyfavourite h2{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0.5vw;
+}
+
+.partthreemyfavourite p{
+    font-size: 1.5vw; 
+    line-height: 1.5;
+}
+
+.sportmanimg a{
+    text-decoration: none;
+    
+}
+
+.sportmanbox{
+    margin: 2vw;
+    border-radius: 10px;
+}
+
+.sportmanbox:hover{
+    width: 250px;
+    height: 350px;
+}
+
+#travelback{
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.partfivetravel{
+    display: inline-block;
+    width: 100%;
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+.partfivetravel h2{
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0.5vw;
+}
+
+.partfivetravel p{
+    text-align: center;
+    font-size: 1.5vw; 
+    line-height: 1.5;
+}
+
+.partfivetravelrowone, .partfivetravelrowtwo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.travelimg1{
+    width: 33%;
+}
+
+#travelimg2, #travelimg3{
+    width: 34%;
+}
+
+.partsixcontact{
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    background-color: #112D4E;
+}
+
+.partsixcontactleft{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.contactform{
+    text-align: center;
+    border-radius: 10px;
+    margin: 5vw;
+    padding: 1vw;
+    background-color: #DBE2EF;
+}
+
+.contactform h2{
+    font-size: 3vw;
+    line-height: 0.8;
+}
+
+.rownameandphone , .rowemail, .rowmessage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5vw 0;
+}
+
+#name{
+    width: 45%;
+    height: 30px;
+}
+
+#phonenumber{
+    width: 45%;
+    height: 30px;
+}
+
+#email{
+    width: 100%;
+    height: 30px;
+}
+
+#message{
+    width: 100%;
+}
+
+.partsixcontactright{
+    padding: 9vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+}
+
+.partsixcontactright h2{
+    font-size: 3.5vw;
+    text-align: center;
+    color: white;
+    line-height: 0.5;
+}
+
+.partsixcontactright p{
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+    line-height: 1.5;
+}
+
+.partsixdetailfooter{
+    display: flex;
+    background-color: #F9F7F7;
+}
+
+.partsixdetailfooter a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+    border: solid black 1px;
+    border-top: none;
+    border-bottom: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    padding: 2vw 1vw 1vw 1vw;
+}
+
+.partsixdetailfooter h4{
+    font-size: 1.5vw;
+    line-height: 0;
+}
+
+.detailrow{
+    display: flex;
+    justify-content: center;
+}
+
+
+.partsevenfooter{
+    display: inline-block;
+    width: 100%;
+    padding-top:40px;
+    background-color: #112D4E;
+    text-align: center;
+    color: white;
+}
+
+.partsevenfooter h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.socialmediarow{
+    margin: 0 1.5vw;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.socialmediarow h3{
+    font-size: 2.2vw;
+}
+
+.socialmedialogo{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
+}
+
+.circle{
+    position: relative;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #DBE2EF;
+}
+
+.circle:hover{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.circle i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.circle2{
+    position: relative;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #112D4E;
+}
+
+.circle2 i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+.copyrightleft{
+    margin: 1.5vw;
+}
+
+.copyrightright{
+    display: flex;
+    margin: 1.5vw;
+}
+
+.copyrightright p{
+    margin-left: 5vw;
+}
+
+@media screen and (max-width: 1000px) {
+    #wrapbuttondiv{
+        height: 120px;
+    }
+
+    .imgandbtn{
+        height: 120px;
+    }
+
+    #catpic{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .partsixcontactright h2{
+        font-size: 4vw;
+    }
+    
+    .partsixcontactright p{
+        font-size: 2vw;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .middletopnav a, .righttopnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+
+    .partoneintroductionleft h2{
+        font-size: 4.5vw;
+    }
+    
+    .partoneintroductionleft p{
+        font-size: 1.8vw; 
+    }
+
+    .buttongetstarted, .buttomyfavourite, .buttomytravel, .buttonsend{
+        font-size: 1.5vw;
+        padding: 2vw 3vw;
+    }
+
+    .buttonaboutme{
+        font-size: 1.5vw;
+        padding: 3vw;
+    }
+
+    .partoneintroductionright{
+        padding-top: 5vw;
+        margin: 10vw;
+    }
+
+    .imgandbtn{
+        height: 120px;
+    }
+
+    #catpic{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .sportmanbox{
+        margin: 2vw;
+        height: 200px;
+        width: 180px;
+    }
+    
+    .sportmanbox:hover{
+        width: 230px;
+        height: 230px;
+    }
+
+    #keepsmile, .partthreemyfavourite p, .partfivetravel p{
+        font-size: 1.8vw;
+    }
+
+    .basicinformationbox{
+        width: 85%;
+    }
+
+    .basicinformationbox p{
+        font-size: 2vw;
+    }
+
+    #travelback{
+        height: 400px;
+    }
+
+    .parttwofooter, .partfourfooter{
+        font-size: 3vw;
+    }
+
+    .partfivetravelrowone, .partfivetravelrowtwo{
+        flex-direction: column;
+    }
+
+    .travelimg1, #travelimg2, #travelimg3{
+        width: 100%;
+        height: 300px;
+    }
+
+    .partsixcontactleft{
+        width: 60%;
+    }
+
+    .partsixcontactright{
+        width: 40%;
+    }
+
+    .contactform{
+        margin: 3vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .imgandbtn{
+        height: 80px;
+    }
+
+    #wrapbuttondiv{
+        height: 95px;
+    }
+
+    #catpic{
+        max-width: 70px;
+        max-height: 70px;
+    }
+
+    .partsixcontactleft{
+        width: 70%;
+    }
+
+    .partsixcontactright{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partoneintroductionleft h2{
+        font-size: 5vw;
+    }
+
+    .partoneintroductionleft p{
+        font-size: 2.4vw;
+    }
+
+    .partoneintroduction{
+        flex-direction: column;
+    }
+
+    .partoneintroductionleft{
+        width: 80%;
+        order: 2;
+        text-align: center;
+    }
+
+    .partoneintroductionright{
+        padding-top: 10vw;
+        margin: 5vw;
+        width: 90%;
+        order: 1;
+    }
+
+    #kienmingpic{
+        height: 180px;
+        width: 180px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .aboutmecontainer{
+        flex-direction: column;
+    }
+
+    .parttwoaboutmeleft{
+        order:1;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .parttwoaboutmeright{
+        order:2;
+        margin-left: 35%;
+    }
+
+    .sportmanbox{
+        margin: 2vw;
+        height: 200px;
+        width: 50%;
+    }
+    
+    .sportmanbox:hover{
+        width: 230px;
+        height: 230px;
+    }
+
+    #keepsmile, .partthreemyfavourite p, .partfivetravel p{
+        font-size: 2.2vw;
+    }
+
+    .partthreemyfavourite h2{
+        font-size: 5vw;
+    }
+
+    .buttongetstarted, .buttomyfavourite, .buttomytravel, .buttonsend{
+        font-size: 2vw;
+        padding: 2vw 3vw;
+    }
+
+    #travelback{
+        height: 350px;
+    }
+
+    .parttwofooter, .partfourfooter{
+        font-size: 3.5vw;
+    }
+
+    .partfivetravel h2{
+        font-size: 5vw;
+    }
+
+    .partfivetravel p{
+        font-size: 2.2vw;
+    }
+
+    .travelimg1, #travelimg2, #travelimg3{
+        height: 180px;
+    }
+
+    .contactform{
+        margin: 2vw 10vw 10vw 10vw;
+        padding: 2vw 5vw 5vw 5vw;
+    }
+
+    .contactform h2{
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+
+    .partsixcontact{
+        flex-direction: column;
+    }
+
+    .partsixcontactleft{
+        width: 100%;
+        order: 2;
+    }
+
+    .partsixcontactright{
+        width: 100%;
+        order: 1;
+        margin-top: 3vw;
+        padding: 0;
+    }
+
+    .partsixcontactright h2{
+        font-size: 5vw;
+    }
+
+    .partsixcontactright p{
+        font-size: 2.2vw;
+    }
+
+    .socialmediarow h3{
+        font-size: 3.5vw;
+    }
+
+    .circle{
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .circle:hover{
+        width: 6vw;
+        height: 6vw;
+    }
+    
+    .circle i{
+        font-size: 2vw;
+    }
+
+    .partsixdetailfooter{
+        flex-direction: column;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid black 2px;
+    }
+
+    .partsixdetailfooter a{
+        border-left: none;
+        border-right: none;
+        border-bottom: solid black 1px;
+        width: 100%;
+        font-size: 1.5vw;
+    }
+    
+    .partsixdetailfooter h4{
+        font-size: 2vw;
+        line-height: 0;
+    }
+
+    .copyright{
+        font-size: 1.6vw;
+    }
+}
