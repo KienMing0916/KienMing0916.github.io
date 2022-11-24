@@ -90,12 +90,12 @@ p{
 #contactbox {
     border-radius: 5px;
     background-color: #112D4E;
-    margin: 10px 0 10px 0;
+    margin: 15px 0 15px 0;
     color: #f2f2f2;
     text-align: center;
-    padding: 12px 1.5vw 22px 1.5vw;
+    padding: 8px 1vw 10px 1vw;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #hiddenbar {
@@ -851,7 +851,7 @@ p{
         font-size: 2.2vw;
     }
 
-    .partthreemyfavourite h2{
+    .partthreemyfavourite h2, .parttwoaboutme h2{
         font-size: 5vw;
     }
 
