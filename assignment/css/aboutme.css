@@ -1,0 +1,333 @@
+html, body{
+    scroll-behavior: smooth;
+    margin:0;
+}
+
+.topnav {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 65px;
+    background-color: #3F72AF;
+}
+
+.lefttopnav, .middletopnav, .righttopnav{
+    display: flex;
+}
+
+.lefttopnav{
+    font-family: 'Orbitron', sans-serif;
+}
+
+.middletopnav, .righttopnav{
+    font-family: 'Lato', sans-serif;
+}
+
+.righttopnav{
+    padding: 0 5vw 0 0;
+}
+
+#kmlogo{
+    margin-top: -3px;
+    padding: 0 0 0 4vw;
+}
+
+.lefttopnav a{
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #f2f2f2;
+    padding: 18px 0;
+}
+
+.middletopnav a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 24px 1.5vw;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(0, 137, 201);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+#contactbox {
+    border-radius: 5px;
+    background-color: #112D4E;
+    margin: 15px 0 15px 0;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 8px 1vw 10px 1vw;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#hiddenbar {
+    border-radius: 10px;
+    background-color: #112D4E;
+    margin: 10px 0 10px 0;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px 15px 22px 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.middletopnav a:hover {
+    color: #112D4E;
+}
+
+.righttopnav a:hover {
+    color: #3F72AF;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+#overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#closebutton{
+    margin-top: 65px;
+}
+  
+#overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.1s;
+}
+  
+#overlay a:hover, #overlay a:focus {
+    color: #00d0ff;
+    font-size: 40px;
+}
+  
+#overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+.partoneaboutme{
+    display: inline-block;
+    width: 100%;
+    background-color: #112D4E;
+    color: white;
+}
+
+.partoneaboutme h2{
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 2;
+    padding: 0.5vw;
+    margin-bottom: -1vw;
+}
+
+.parttwopersonalinformation h2{
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight: bold;
+    line-height: 1;
+    -webkit-margin-before: 3vw;
+    -webkit-margin-after: 0px;
+    padding: 0.5vw;
+}
+
+.partoneaboutme p{
+    text-align: center;
+    font-size: 1.5vw; 
+    line-height: 1.8;
+    padding-bottom: 5vw;
+}
+
+.partonefooter{
+    font-family: 'Dancing Script', cursive;
+    margin-top: -5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 2.2vw;
+    text-align: center;
+    padding: 0.2vw 0;
+}
+
+.parttwopersonalinformation{
+    display: inline-block;
+    width: 100%;
+    background-color: #DBE2EF;
+    color: black;
+}
+
+.partoneinformationrowone, .partoneinformationrowtwo{
+    display: flex;
+}
+
+.informationbox{
+    background-color: #112D4E;
+    border: double black 1.5vw;
+    border-radius: 20px;
+    color: white;
+    width: 70%;
+    height: max-content;
+    margin: 2vw 2vw 1vw 2vw;
+}
+
+.informationbox h3{
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+.informationbox p{
+    font-size: 1.3vw;
+    text-align: left;
+    padding-left: 9vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+.schoolattended{
+    background-color: #112D4E;
+}
+
+.partthreefooter{
+    display: inline-block;
+    width: 100%;
+    padding-top:5vw;
+    background-color: #112D4E;
+    text-align: center;
+    color: white;
+}
+
+.partthreefooter h3{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.socialmediarow{
+    margin: 0 1.5vw;
+    border-top: solid white 2px;
+    border-bottom: solid white 2px;
+}
+
+.socialmediarow h3{
+    font-size: 2.2vw;
+}
+
+.socialmedialogo{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
+}
+
+.circle{
+    position: relative;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #DBE2EF;
+}
+
+.circle:hover{
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.circle i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+}
+
+.copyrightleft{
+    margin: 1.5vw;
+}
+
+.copyrightright{
+    display: flex;
+    margin: 1.5vw;
+}
+
+.copyrightright p{
+    margin-left: 5vw;
+}
+
+@media screen and (max-width: 800px) {
+    .middletopnav a, .righttopnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+}

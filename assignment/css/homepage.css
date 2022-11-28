@@ -554,7 +554,7 @@ p{
 .partsevenfooter{
     display: inline-block;
     width: 100%;
-    padding-top:40px;
+    padding-top:5vw;
     background-color: #112D4E;
     text-align: center;
     color: white;
