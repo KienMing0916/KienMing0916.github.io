@@ -49,7 +49,7 @@ p{
     text-decoration: none;
     font-weight: bold;
     color: #f2f2f2;
-    padding: 18px 0;
+    padding: 16px 0;
 }
 
 .middletopnav a {
@@ -169,7 +169,7 @@ p{
 
 .partoneintroduction{
     display: flex;
-    background-color: #112D4E;
+    background-image: radial-gradient(#004798, #112D4E, #112D4E);
     color: white;
 }
 
@@ -350,6 +350,7 @@ p{
     font-size: 2vw;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 }
 
 .basicinformationbox p{
@@ -729,6 +730,10 @@ p{
         width: 85%;
     }
 
+    .basicinformationbox h3{
+        font-size: 2.5vw;
+    }
+
     .basicinformationbox p{
         font-size: 2vw;
     }
@@ -787,6 +792,11 @@ p{
 }
 
 @media screen and (max-width: 480px) {
+    .lefttopnav a{
+        font-size: 17px;
+        padding: 21px 0;
+    }
+
     .partoneintroductionleft h2{
         font-size: 5vw;
     }
@@ -958,3 +968,11 @@ p{
         font-size: 1.6vw;
     }
 }
+
+@media screen and (max-width: 320px) {
+    #kmtitle{
+        display: none;
+    }
+}
+
+
