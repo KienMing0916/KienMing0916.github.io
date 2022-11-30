@@ -434,6 +434,11 @@ p{
 }
 
 @media screen and (max-width: 480px) {
+    .lefttopnav a{
+        font-size: 17px;
+        padding: 21px 0;
+    }
+    
     .parttwoinformationrowone, .parttwoinformationrowtwo{
         flex-direction: column;
     }
