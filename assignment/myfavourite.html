@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Favourite</title>
+        <link rel="icon" type="image/x-icon" href="img/smileicon.png">
+        <link href="css/myfavourite.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- overlay -->
+            <div id="overlay">
+                <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="myfavourite.html">My Favourite</a>
+                    <a href="mytravel.html">My Travel</a>
+                    <a id="contactbox2" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- headerpart -->
+            <div class="topnav" id="myTopnav">
+                <div class="lefttopnav">
+                    <img id="kmlogo" src="img/km.png" alt="logo" height="70px">
+                    <a id="kmtitle" href="index.html">KienMing</a>
+                </div>
+                <div class="middletopnav">
+                    <a href="index.html">Home</a> 
+                    <div class="dropdown">
+                        <a href="aboutme.html">About Me</a>
+                        <div class="dropdown-content">
+                          <a href="aboutme.html">Introduction</a>
+
+                          <a href="aboutme.html#parttwopersonalinformation">Personal Information</a>
+                          <a href="aboutme.html#partthreeschoolattended">Schools and University College I attended</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="myfavourite.html">My Favourite</a>
+                        <div class="dropdown-content">
+                            <a href="myfavourite.html#parttwoleeziijiaheader">Badminton</a>
+                            <a href="myfavourite.html#partthreekdheader">Basketball</a>
+                            <a href="myfavourite.html#partfourmessiheader">Football</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="mytravel.html">My Travel</a>
+                        <div class="dropdown-content">
+                          <a href="#">Sekinchan, Selangor</a>
+                          <a href="#">Malacca</a>
+                          <a href="#">Pulau Langkawi, Kedah</a>
+                          <a href="#">Thailand</a>
+                          <a href="#">Taiwan</a>
+                          <a href="#">Singapore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="righttopnav">
+                    <a id="contactbox" href="contact.html">Contact</a>
+                    <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- partoneintroduction -->
+            <div class="partoneintroduction">
+                <div class="partoneintroductionleft">
+                    <img id="panda" src="img/panda.png" alt="pandaimg">
+                </div>
+                <div class="partoneintroductionright">
+                    <h2>My Favourite</h2>
+                    <p>There are many things I am interested in, but the one that attracts me<br>
+                        the most is sports. This is because physical activity can improve <br>
+                        cardiovascular health, reduce disease risks and help manage weight.<br><br>
+                        Among many sports, badminton, basketball and football attract me the<br>
+                        most. Because there are player in all three sports that I admire and like.<br>
+                    </p>
+                </div>
+            </div>
+            <!-- parttwoleeziijia -->
+            <div class="parttwoleeziijiaheader" id="parttwoleeziijiaheader">
+                <div class="topnavspace"></div>
+                <h2>Lee Zii Jia</h2>
+                <h3>(Malaysian Badminton Player)</h3>
+            </div>
+            <div class="parttwoleeziijia">
+                <img id="ziijia" src="img/ziijia3.jpg" alt="leeziijiaimg">
+                <p>
+                    In badminton, my favourite player is Lee Zii Jia from Malaysia. 
+                    His fierce style of play, violent smashing and solid defense make 
+                    his game extremely enjoyable. Fans can feast their eyes whenever he plays. 
+                    And as a Malaysian, he also carries the hope of Malaysia winning 
+                    the Olympic gold medal for the first time.
+
+                </p>
+            </div>
+            <div class="ziijiaachievements">
+                <div class="achievementbox">
+                    <i class="fa-solid fa-medal"></i>
+                    <p>Medals</p>
+                    <p>2022 Thailand Open Champion</p>
+                    <p>2022 Asian Badminton MS Champion</p>
+                    <p>2021 All England MS Champion</p>
+                    <p>2019 Southeast Asian Games<br>MS Champion</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-ranking-star"></i>
+                    <p>Ranking</p>
+                    <p>Current No. 2 in the BWF World Rankings</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-people-group"></i>
+                    <p>Teams</p>
+                    <p>Malaysia's No. 1 Men's Singles</p>
+                    <p>2022 Asian Badminton Team Championships Men's Team Champion</p>
+                    <p>2021 Sudirman Cup mixed team 3rd</p>
+                    <p>2020 Asian Badminton Championships Men's Team Champion</p>
+                </div>
+            </div>
+            <!-- partthreekd -->
+            <div class="partthreekdheader" id="partthreekdheader">
+                <div class="topnavspace2"></div>
+                <h2>Kevin Durant</h2>
+                <h3>(American Basketball Player)</h3>
+            </div>
+            <div class="partthreekd">
+                <div class="partthreekdleft">
+                    <p>
+                        In basketball, my favourite player is Kevin Durant from Brooklyn Nets. 
+                        Kevin Durant is the most powerful scorer in the NBA. He could be a good 
+                        player with his versatile skillset, wide range, ability to finish the 
+                        game on the floor and good use of his athleticism.
+                    </p>
+                </div>
+                <div class="partthreekdright">
+                    <img id="kd" src="img/kd2.jpg" alt="kdimg">
+                </div>
+            </div>
+            <div class="kdachievements">
+                <div class="achievementbox">
+                    <i class="fa-solid fa-trophy"></i>
+                    <p>Trophys</p>
+                    <p>2x NBA Champions</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Honours</p>
+                    <p>2x FMVP (2017, 2018)</p>
+                    <p>1x MVP (2014)</p>
+                    <p>4x NBA Scoring Leader (2010-2012, 2014)</p>
+                    <p>6x All NBA First Team</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <p>All Star</p>
+                    <p>12x NBA All-Star</p>
+                    <p>2x AMVP (2012, 2019)</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-medal"></i>
+                    <p>National Team</p>
+                    <p>3x Olympic Champion (2012, 2016, 2020)</p>
+                    <p>Olympics Most Valuable Player (2020)</p>
+                    <p>1x FIBA basketball world cup</p>
+                    <p>FIBA World Cup Most Valuable Player (2010)</p>
+                    <p></p>
+                </div>
+            </div>
+            <!-- partfourmessi -->
+            <div class="partfourmessiheader" id="partfourmessiheader">
+                <div class="topnavspace2"></div>
+                <h2>Lionel Messi</h2>
+                <h3>(Argentina Football Player)</h3>
+            </div>
+            <div class="partfourmessi">
+                <div class="partfourmessileft">
+                    <img id="messi" src="img/messi2.jpg" alt="messiimg">
+                </div>
+                <div class="partfourmessiright">
+                    <p>
+                        In football, my favourite player is Lionel Messi from PSG / Argentina. 
+                        What attracts me to Messi lies in his humble character and excellent ball skills. 
+                        And he is also the most agile and practical player I have seen dribbling. 
+                        His excellent ball-handling ability allowing him to turn his waist as fast as he 
+                        can to deceive opponents trying to take the ball away from him.
+                    </p>
+                </div>
+            </div>
+            <div class="messiachievements">
+                <div class="achievementbox">
+                    <i class="fa-solid fa-trophy"></i>
+                    <p>Trophys</p>
+                    <p>10x LaLiga Champion</p>
+                    <p> 7x Spanish King's Cup</p>
+                    <p> 4x Champion Leagues</p>
+                    <p> 3x UEFA Super Cup Champion</p>
+                    <p> 3x World Club Cup</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Honours</p>
+                    <p>7x The Ballon d'Or</p>
+                    <p>1x World Cup Golden Ball</p>
+                    <p>6x Player of the Year</p>
+                    <p>7x The Footballer of the Year of Argentina</p>
+                    <p>3x Europe Best Player</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-sharp fa-solid fa-star"></i>
+                    <p>Records</p>
+                    <p>8x LaLiga Top Scorer</p>
+                    <p>8x LaLiga Best Player</p>
+                    <p>World record for most goals in a year (91)</p>
+                    <p>Most goals scored in LaLiga (419)</p>
+                    <p>Most assists in LaLiga (162)</p>
+                </div>
+                <div class="achievementbox">
+                    <i class="fa-solid fa-medal"></i>
+                    <p>National Team</p>
+                    <p>1x Copa America Champion</p>
+                    <p>3x Copa America 2nd</p>
+                    <p>1x World Cup 2nd</p>
+                </div>
+            </div>
+            <div class="topnavspace2"></div>
+            <!-- part5 footer -->
+            <div class="partsevenfooter">
+                <div class="socialmediarow">
+                    <h3>Kien Ming</h3>
+                    <div class="socialmedialogo">
+                        <a href="https://www.facebook.com/profile.php?id=100007155271525" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                        </a>
+                        <a href="https://twitter.com/kienming0916" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                        </a>
+                        <a href="https://www.instagram.com/kienming_916/" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                        </a>
+                      </div>   
+                </div>
+                <div class="copyright">
+                    <div class="copyrightleft">
+                        <p>Copyright © 2022 KienMing. All Rights Reserved.</p>
+                    </div>
+                    <div class="copyrightright">
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- for top navigartion bar  -->
+        <script>
+            function openNav() {
+            document.getElementById("overlay").style.width = "100%";
+            }
+        
+            function closeNav() {
+            document.getElementById("overlay").style.width = "0%";
+            }
+        </script>
+    </body>
+</html>
