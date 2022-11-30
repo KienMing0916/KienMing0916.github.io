@@ -554,6 +554,10 @@ p{
     .parttwoleeziijiaheader h3, .partthreekdheader h3, .partfourmessiheader h3{
         font-size: 3vw;
     }
+    
+    .parttwoleeziijia p, .partthreekd p, .partfourmessi p{
+        font-size: 2.1vw; 
+    }
 
     .achievementbox{
         width: 40%;
@@ -563,12 +567,18 @@ p{
         font-size: 4vw;
     }
 
+    .achievementbox p {
+        font-size: 1.8vw;
+    }
+
     #ziijia{
-        width: 60%;
+        width: 42%;
+        height: 35vw;
     }
 
     #ziijia:hover{
-        width: 65%;
+        width: 47%;
+        height: 40vw;
     }
 
     .partthreekd, .partfourmessi{
@@ -580,6 +590,7 @@ p{
         order: 2;
         padding: 0;
         width: 100%;
+        font-size: 1.7vw;
     }
 
     .partthreekdright{
