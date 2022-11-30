@@ -17,7 +17,7 @@
             <div id="overlay">
                 <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="homepage.html">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="aboutme.html">About Me</a>
                     <a href="myfavourite.html">My Favourite</a>
                     <a href="mytravel.html">My Travel</a>
@@ -28,25 +28,24 @@
             <div class="topnav" id="myTopnav">
                 <div class="lefttopnav">
                     <img id="kmlogo" src="img/km.png" alt="logo" height="70px">
-                    <a href="homepage.html">KienMing</a>
+                    <a id="kmtitle" href="index.html">KienMing</a>
                 </div>
                 <div class="middletopnav">
-                    <a href="homepage.html">Home</a> 
+                    <a href="index.html">Home</a> 
                     <div class="dropdown">
                         <a href="aboutme.html">About Me</a>
                         <div class="dropdown-content">
-                          <a href="#">Introduction</a>
-                          <a href="#">Personal Information</a>
-                          <a href="#">Schools and University College I attended</a>
+                          <a href="aboutme.html">Introduction</a>
+                          <a href="aboutme.html#parttwopersonalinformation">Personal Information</a>
+                          <a href="aboutme.html#partthreeschoolattended">Schools and University College I attended</a>
                         </div>
                     </div>
                     <div class="dropdown">
                         <a href="myfavourite.html">My Favourite</a>
                         <div class="dropdown-content">
-                        <!-- <a href='myOtherPage.html#myDivId'>myLink</a> -->
-                          <a href="#">Badminton</a>
-                          <a href="#">Basketball</a>
-                          <a href="#">Football</a>
+                            <a href="myfavourite.html#parttwoleeziijiaheader">Badminton</a>
+                            <a href="myfavourite.html#partthreekdheader">Basketball</a>
+                            <a href="myfavourite.html#partfourmessiheader">Football</a>
                         </div>
                     </div>
                     <div class="dropdown">
@@ -68,6 +67,7 @@
                     </a>
                 </div>
             </div>
+            <!-- partone -->
             <div class="partoneaboutme">
                 <h2>About Me</h2>
                 <p>
@@ -84,70 +84,96 @@
                     You'll never know everybody <br>sees what they wanna see.
                 </h5>
             </div>
-            <div class="parttwopersonalinformation">
+            <!-- parttwo -->
+            <div class="parttwopersonalinformation" id="parttwopersonalinformation">
+                <div class="topnavspace"></div>
                 <h2>Personal Information</h2>
-                <div class="partoneinformationrowone">
-                    <div class="informationbox">
+                <div class="parttwoinformationrowone">
+                    <div class="informationboxleft">
                         <h3>Basic Information</h3>
-                        <p>Name&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Tan Kien Ming</p>
-                        <p>Date of birth: 16 September 2002</p>
-                        <p>Gender&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Male</p>
-                        <p>Religion: Buddhism</p>
+                        <p>&nbsp&nbspName : Tan Kien Ming</p>
+                        <p>Date of birth : 16 September 2002</p>
+                        <p>Gender : Male&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
+                        <p>Religion : Buddhism&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                     </div>
-                    <div class="informationbox">
+                    <div class="informationboxright">
                         <h3>Education</h3>
-                        <!-- &nbsp&nbsp -->
-                        <p>Primary school: SJK(C) YU HUA</p>
-                        <p>Secondary school: SMJK YU HUA</p>
-                        <p>Diploma: NEUC (Computer Science)</p>
-                        <p>Degree: NEUC (Software Engineering)</p>
+                        <p>Primary school : SJK(C) YU HUA</p>
+                        <p>Secondary school : SMJK YU HUA</p>
+                        <p>Diploma : NEUC (Computer Science)</p>
+                        <p>Degree : NEUC (Software Engineering)</p>
                     </div>
                 </div>
-                <div class="partoneinformationrowtwo">
-                    <div class="informationbox">
+                <div class="parttwoinformationrowtwo">
+                    <div class="informationboxleft">
                         <h3>Languages</h3>
-                        <p>English: 6.5/10</p>
-                        <p>Mandarin: 8.5 /10</p>
-                        <p>Malay: 7.5 /10</p>
-                        <p>Cantonese: 7/10</p>
+                        <p>English : 6.5 /10</p>
+                        <p>Mandarin : 8.5 /10&nbsp&nbsp&nbsp</p>
+                        <p>&nbsp&nbspMalay : 7.5 /10</p>
+                        <p>Cantonese : 7.5 /10&nbsp&nbsp&nbsp&nbsp&nbsp</p>
                     </div>
-                    <div class="informationbox">
+                    <div class="informationboxright">
                         <h3>Mastered Skills</h3>
-                        <p>Microsoft office: 7/10</p>
-                        <p>Java: 7/10</p>
-                        <p>C++: 6/10</p>
-                        <p>HTML/CSS: 6/10</p>
+                        <p>Microsoft office : 7/10&nbsp&nbsp&nbsp</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspJava : 7/10</p>
+                        <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspC++ : 6/10</p>
+                        <p>&nbsp&nbsp&nbspHTML/CSS : 6/10</p>
                     </div>
                 </div>
             </div>
-            <div class="schoolattended">
+            <!-- partthree -->
+            <div class="partthreeschoolattended" id="partthreeschoolattended">
+                <div class="topnavspace2"></div>
                 <h2>Schools and University College I attended</h2>
                 <div class="primaryschool">
                     <div class="leftprimaryschool">
+                        <img class="school1" src="img/primaryschool.jpeg" alt="SJK(C)YU HUA">
+                    </div>
+                    <div class="emptycolumn1">
 
                     </div>
                     <div class="rightprimaryschool">
+                        <h5>School name : SJK(C) YU HUA KAJANG</h5>
+                        <h5>Phone No &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: + (60) 3-87367516</h5>
+                        <h5>FAX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: + (60) 3-87379643</h5>
+                        <h5>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: BBC4045@moe.edu.my</h5>
+                        <h5>Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Jalan Low Ti Kok, 43000 Kajang, Selangor</h5>
 
                     </div>
                 </div>
                 <div class="secondaryschool">
+                    <div class="emptycolumn1">
+                        
+                    </div>
                     <div class="leftsecondaryschool">
-
+                        <h5>School name : SMJK YU HUA KAJANG</h5>
+                        <h5>Phone No &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: + (60) 3-87367514 / + (60) 3-8736851</h5>
+                        <h5>FAX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: +(60)3-87368670</h5>
+                        <h5>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: beb4070@btpnsel.edu.my</h5>
+                        <h5>Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Jalan Low Ti Kok, 43000 Kajang, Selangor</h5>
                     </div>
                     <div class="rightsecondaryschool">
-
+                        <img class="school2" src="img/secondaryschool.jpg" alt="SMJK YU HUA">
                     </div>
                 </div>
-                <div class="univerysitycollege">
+                <div class="universitycollege">
                     <div class="leftuniverysitycollege">
-
+                        <img class="school3" src="img/uc.jpg" alt="NEUC">
+                    </div>
+                    <div class="emptycolumn1">
+                        
                     </div>
                     <div class="rightuniverysitycollege">
-
+                        <h5>School name : NEW ERA UNIVERSITY COLLEGE</h5>
+                        <h5>Phone No &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: + (60) 3-87392770</h5>
+                        <h5>FAX &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: neuc@newera.edu.my</h5>
+                        <h5>Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: BBC4045@moe.edu.my</h5>
+                        <h5>Address &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: Seksyen 10, Jalan Bukit, 43000 Kajang, Selangor.</h5>
                     </div>
                 </div>
             </div>
-            <div class="partthreefooter">
+            <!-- partfour -->
+            <div class="partfourfooter">
                 <div class="socialmediarow">
                     <h3>Kien Ming</h3>
                     <div class="socialmedialogo">

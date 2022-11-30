@@ -3,6 +3,15 @@ html, body{
     margin:0;
 }
 
+h2, h3, h4{
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Roboto';
+}
+
 .topnav {
     position: sticky;
     top: 0;
@@ -161,11 +170,13 @@ html, body{
 .partoneaboutme{
     display: inline-block;
     width: 100%;
-    background-color: #112D4E;
+    /* background-color: #112D4E; */
+    background-image: radial-gradient(#004798, #112D4E, #112D4E);
     color: white;
 }
 
 .partoneaboutme h2{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 4vw;
     font-weight: bold;
@@ -184,6 +195,14 @@ html, body{
     padding: 0.5vw;
 }
 
+.partthreeschoolattended h2{
+    text-align: center;
+    font-size: 3.2vw;
+    font-weight: bold;
+    line-height: 1.4;
+    padding: 0.5vw;
+}
+
 .partoneaboutme p{
     text-align: center;
     font-size: 1.5vw; 
@@ -196,10 +215,11 @@ html, body{
     margin-top: -5px;
     width: 100%;
     background-color: black;
+    line-height: 0.9;
     color: white;
     font-size: 2.2vw;
     text-align: center;
-    padding: 0.2vw 0;
+    padding: 0.1vw 0;
 }
 
 .parttwopersonalinformation{
@@ -207,49 +227,106 @@ html, body{
     width: 100%;
     background-color: #DBE2EF;
     color: black;
+    padding-bottom: 1vw;
 }
 
-.partoneinformationrowone, .partoneinformationrowtwo{
+.topnavspace{
+    height: 2vw;
+    width: 100%;
+    background-color: #DBE2EF;
+}
+
+.parttwoinformationrowone, .parttwoinformationrowtwo{
     display: flex;
 }
 
-.informationbox{
+.informationboxleft{
     background-color: #112D4E;
     border: double black 1.5vw;
-    border-radius: 20px;
     color: white;
     width: 70%;
     height: max-content;
-    margin: 2vw 2vw 1vw 2vw;
+    margin: 3vw 2vw 0vw 6vw;
 }
 
-.informationbox h3{
+.informationboxright{
+    background-color: #112D4E;
+    border: double black 1.5vw;
+    color: white;
+    width: 70%;
+    height: max-content;
+    margin: 3vw 6vw 0vw 2vw;
+}
+
+.informationboxleft h3, .informationboxright h3{
     font-size: 2vw;
     font-weight: bold;
     text-align: center;
+    text-decoration: underline;
 }
 
-.informationbox p{
+.informationboxleft p, .informationboxright p{
     font-size: 1.3vw;
-    text-align: left;
-    padding-left: 9vw;
+    text-align: center;
+}
+
+.topnavspace2{
+    height: 2vw;
+    width: 100%;
+    background-color: #DBE2EF;
+}
+
+.partthreeschoolattended{
+    display: inline-block;
+    width: 100%;
+    background-color: #B9E0FF;
+    padding-bottom: 4vw;
+}
+
+.primaryschool, .secondaryschool, .universitycollege{
+    display: flex;
+}
+
+.leftprimaryschool, .rightsecondaryschool, .leftuniverysitycollege{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 2vw 0;
+    border-bottom: solid black 2px;
+}
+
+.emptycolumn1{
+    width: 7%;
+}
+
+.rightprimaryschool, .leftsecondaryschool, .rightuniverysitycollege{
+    width: 43%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vw 0;
+}
+
+.rightprimaryschool h5, .leftsecondaryschool h5, .rightuniverysitycollege h5{
+    font-family: 'Roboto';
+    font-size: 1.4vw;
+    line-height: 0;
 }
 
 
-
-
-
-
-
-
-
-
-
-.schoolattended{
-    background-color: #112D4E;
+.school1, .school2, .school3{
+    width: 80%;
+    border-radius: 25px;
+    box-shadow: 1.5vw 1.5vw 10px #ccc;
+    
 }
 
-.partthreefooter{
+.school1:hover, .school2:hover, .school3:hover{
+    width: 90%;
+    
+}
+
+.partfourfooter{
     display: inline-block;
     width: 100%;
     padding-top:5vw;
@@ -258,7 +335,7 @@ html, body{
     color: white;
 }
 
-.partthreefooter h3{
+.partfourfooter h3{
     font-size: 26px;
     font-weight: bold;
 }
@@ -329,5 +406,144 @@ html, body{
     .topnav a.icon {
       float: right;
       display: block;
+    }
+
+    .partoneaboutme h2{
+        font-size: 4.5vw;
+    }
+
+    .partoneaboutme p{
+        font-size: 1.8vw; 
+    }
+
+    .partonefooter{
+        font-size: 3vw;
+    }
+
+    .parttwopersonalinformation h2, .partthreeschoolattended h2{
+        font-size: 3.8vw;
+    }
+
+    .informationboxleft h3, .informationboxright h3{
+        font-size: 2.5vw;
+    }
+    
+    .informationboxleft p, .informationboxright p{
+        font-size: 1.8vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .parttwoinformationrowone, .parttwoinformationrowtwo{
+        flex-direction: column;
+    }
+
+    .partoneaboutme h2{
+        font-size: 5vw;
+    }
+
+    .partoneaboutme p{
+        font-size: 2vw; 
+    }
+
+    .partonefooter{
+        font-size: 3vw;
+    }
+
+    .parttwopersonalinformation h2, .partthreeschoolattended h2{
+        font-size: 4.5vw;
+    }
+
+    .informationboxleft{
+        margin: auto;
+        margin-top: 3vw;
+    }
+    
+    .informationboxright{
+        margin: auto;
+        margin-top: 3vw;
+    }
+
+    .primaryschool, .secondaryschool, .universitycollege{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .leftprimaryschool{
+        order: 1;
+    }
+
+    .rightprimaryschool{
+        order: 2;
+    }
+
+    .leftsecondaryschool{
+        order: 2;
+    }
+
+    .rightsecondaryschool{
+        order: 1;
+    }
+
+    .leftuniverysitycollege{
+        order: 1;
+    }
+
+    .rightuniverysitycollege{
+        order: 2;
+    }
+    
+    .rightprimaryschool, .leftsecondaryschool, .rightuniverysitycollege{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 0;
+        padding: 4vw 0;
+        margin-left: 25vw;
+    }
+
+    .rightprimaryschool h5, .leftsecondaryschool h5, .rightuniverysitycollege h5{
+        font-size: 2vw;
+    }
+
+    .leftprimaryschool, .rightsecondaryschool, .leftuniverysitycollege{
+        width: 100%;
+        display: flex;
+        padding: 2vw 9vw;
+        border: none;
+    }
+    
+    .emptycolumn1{
+        width: 0%;
+    }
+
+    .socialmediarow h3{
+        font-size: 3.5vw;
+    }
+
+    .circle{
+        width: 5vw;
+        height: 5vw;
+    }
+    
+    .circle:hover{
+        width: 6vw;
+        height: 6vw;
+    }
+    
+    .circle i{
+        font-size: 2vw;
+    }
+
+    .copyright{
+        font-size: 1.6vw;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #kmtitle{
+        display: none;
     }
 }
