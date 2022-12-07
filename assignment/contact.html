@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <link rel="icon" type="image/x-icon" href="img/smileicon.png">
+        <link href="css/contact.css" rel="stylesheet" />
+        <link href="css/forheaderandfooter.css" rel="stylesheet" />
+        <script src="js/forassignment.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- overlay -->
+            <div id="overlay">
+                <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="myfavourite.html">My Favourite</a>
+                    <a href="mytravel.html">My Travel</a>
+                    <a id="contactbox2" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- headerpart -->
+            <div class="topnav" id="myTopnav">
+                <div class="lefttopnav">
+                    <img id="kmlogo" src="img/km.png" alt="logo" height="70px">
+                    <a id="kmtitle" href="index.html">KienMing</a>
+                </div>
+                <div class="middletopnav">
+                    <a href="index.html">Home</a> 
+                    <div class="dropdown">
+                        <a href="aboutme.html">About Me</a>
+                        <div class="dropdown-content">
+                          <a href="aboutme.html">Introduction</a>
+
+                          <a href="aboutme.html#parttwopersonalinformation">Personal Information</a>
+                          <a href="aboutme.html#partthreeschoolattended">Schools and University College I attended</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="myfavourite.html">My Favourite</a>
+                        <div class="dropdown-content">
+                            <a href="myfavourite.html#parttwoleeziijiaheader">Badminton</a>
+                            <a href="myfavourite.html#partthreekdheader">Basketball</a>
+                            <a href="myfavourite.html#partfourmessiheader">Football</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="mytravel.html">My Travel</a>
+                        <div class="dropdown-content">
+                            <a href="mytravel.html#parttwosekinchan">Sekinchan, Selangor</a>
+                            <a href="mytravel.html#partthreemalacca">Malacca</a>
+                            <a href="mytravel.html#partfourlangkawi">Pulau Langkawi, Kedah</a>
+                            <a href="mytravel.html#partfivethailand">Thailand</a>
+                            <a href="mytravel.html#partsixtaiwan">Taiwan</a>
+                            <a href="mytravel.html#partsevensingapore">Singapore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="righttopnav">
+                    <a id="contactbox" href="contact.html">Contact</a>
+                    <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- partone -->
+            <div class="partonecontactinfo">
+                <h2>Contact</h2>
+                <p>Let's get the conversation started. <br>
+                   Tell me about yourself and I’ll get in touch with you soon.
+                </p>
+            </div>
+            <!-- parttwo -->
+            <div class="parttwomap">
+                <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15937.936843093928!2d101.74260142331433!3d2.9630599154712707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdca2d474fa21d%3A0x97031f098fa832d0!2sSeksyen%209%20Bandar%20Baru%20Bangi%2C%2043650%20Bandar%20Baru%20Bangi%2C%20Selangor!5e0!3m2!1sen!2smy!4v1670144849022!5m2!1sen!2smy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="contactform">
+                    <h2>Get In Touch</h2>
+                    <form name="contact_form" action="#">
+                        <div class="rownameandphone">
+                            <input id="name" type="text" name="name" placeholder="Name" required>
+                            <input id="phonenumber" type="text" name="phonenumber" placeholder="Phone" required>
+                        </div>
+                        <div class="rowemail">
+                            <input id="email" type="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="rowmessage">
+                            <textarea id="message" name="message" rows="4" placeholder="message" required=""></textarea>
+                        </div>
+                        <a href="mytravel.html">
+                            <button type="submit" class="buttonsend">SEND</button> 
+                        </a>
+                    </form>
+                </div>
+            </div>
+            <!-- partthree -->
+            <div class="partthreecontactdetails">
+                <a href="tel:+601169611730">
+                    <div class="detailrow">
+                      <div class="circle2">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <h4>PHONE</h4>
+                    </div>
+                    <h3>+60 (11)-69611730</h3>
+                </a>
+                <a href="mailto: tankienming0916@newera.edu.my" target="_blank">
+                    <div class="detailrow">
+                      <div class="circle2">
+                        <i class="fa-solid fa-envelope"></i>
+                      </div>
+                      <h4>EMAIL</h4>
+                    </div>
+                    <h3>tankienming0916@newera.edu.my</h3>
+                </a>
+                <a href="https://goo.gl/maps/nFGAqJxbDQwRGauS7" target="_blank">
+                    <div class="detailrow">
+                        <div class="circle2">
+                        <i class="fa-solid fa-compass"></i>
+                        </div>
+                        <h4>ADDRESS</h4>
+                    </div>
+                    <h3>No. 127, Jalan 7/5, Seksyen 9, 43650, Bandar Baru Bangi, Selangor</h3>
+                </a>
+            </div>
+
+
+            <!-- footer -->
+            <div class="lastpartfooter">
+                <div class="socialmediarow">
+                    <h3>Kien Ming</h3>
+                    <div class="socialmedialogo">
+                        <a href="https://www.facebook.com/profile.php?id=100007155271525" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                        </a>
+                        <a href="https://twitter.com/kienming0916" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                        </a>
+                        <a href="https://www.instagram.com/kienming_916/" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                        </a>
+                      </div>   
+                </div>
+                <div class="copyright">
+                    <div class="copyrightleft">
+                        <p>Copyright © 2022 KienMing. All Rights Reserved.</p>
+                    </div>
+                    <div class="copyrightright">
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
