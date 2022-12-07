@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Travel</title>
+        <link rel="icon" type="image/x-icon" href="img/smileicon.png">
+        <link href="css/mytavel.css" rel="stylesheet" />
+        <link href="css/forheaderandfooter.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <!-- overlay -->
+            <div id="overlay">
+                <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="index.html">Home</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="myfavourite.html">My Favourite</a>
+                    <a href="mytravel.html">My Travel</a>
+                    <a id="contactbox2" href="contact.html">Contact</a>
+                </div>
+            </div>
+            <!-- headerpart -->
+            <div class="topnav" id="myTopnav">
+                <div class="lefttopnav">
+                    <img id="kmlogo" src="img/km.png" alt="logo" height="70px">
+                    <a id="kmtitle" href="index.html">KienMing</a>
+                </div>
+                <div class="middletopnav">
+                    <a href="index.html">Home</a> 
+                    <div class="dropdown">
+                        <a href="aboutme.html">About Me</a>
+                        <div class="dropdown-content">
+                          <a href="aboutme.html">Introduction</a>
+
+                          <a href="aboutme.html#parttwopersonalinformation">Personal Information</a>
+                          <a href="aboutme.html#partthreeschoolattended">Schools and University College I attended</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="myfavourite.html">My Favourite</a>
+                        <div class="dropdown-content">
+                            <a href="myfavourite.html#parttwoleeziijiaheader">Badminton</a>
+                            <a href="myfavourite.html#partthreekdheader">Basketball</a>
+                            <a href="myfavourite.html#partfourmessiheader">Football</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <a href="mytravel.html">My Travel</a>
+                        <div class="dropdown-content">
+                          <a href="mytravel.html#parttwosekinchan">Sekinchan, Selangor</a>
+                          <a href="mytravel.html#partthreemalacca">Malacca</a>
+                          <a href="mytravel.html#partfourlangkawi">Pulau Langkawi, Kedah</a>
+                          <a href="mytravel.html#partfivethailand">Thailand</a>
+                          <a href="mytravel.html#partsixtaiwan">Taiwan</a>
+                          <a href="mytravel.html#partsevensingapore">Singapore</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="righttopnav">
+                    <a id="contactbox" href="contact.html">Contact</a>
+                    <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                        <i id="icon" class="fa-solid fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- partone -->
+            <div class="partonetravelintroduction">
+                <div class="partonetravelintroductionleft">
+                    <img id="aeroplane" src="img/aeroplane.png" alt="aeroplane">
+                </div>
+                <div class="partonetravelintroductionright">
+                    <h2>My Travel<br>(Place I visited)</h2>
+                    <p>
+                        Travelling can simply make you happier by removing you 
+                        from your regular routine, Working or studying nonstop 
+                        for days, weeks, or months may help you reach your 
+                        goals. You should, however, occasionally take a 
+                        vacation from ongoing stress. 
+                    </p>
+                </div>
+            </div>
+            <!-- parttwo -->
+            <div class="parttwosekinchan" id="parttwosekinchan">
+                <div class="topnavspace"></div>
+                <div class="parttwosekinchanheader">
+                    <h2>Sekinchan, Selangor</h2>
+                </div>
+                <div class="sekinchanimgrow">
+                    <img class="travelpic" id="sekinchan1" src="img/sekinchan1.jpg" alt="sekinchan1">
+                    <img class="travelpic" id="sekinchan2" src="img/sekinchan2.jpg" alt="sekinchan2">
+                    <img class="travelpic" id="sekinchan3" src="img/sekinchan3.jpg" alt="sekinchan3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer1">
+                      <img class="travelpic" src="img/sekinchan1.jpg" alt="sekinchan1">
+                    </div>
+                  
+                    <div class="slidecontainer1">
+                      <img class="travelpic" src="img/sekinchan2.jpg" alt="sekinchan2">
+                    </div>
+                  
+                    <div class="slidecontainer1">
+                      <img class="travelpic" src="img/sekinchan3.jpg" alt="sekinchan3">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+                <p>
+                    Sekinchan is a fishing village since it is situated on the northwest Selangor lowlands, 
+                    which extended from Tanjung Karang all the way to Sabak Bernam as well as the Straits 
+                    of Malacca. It can be referred to as the "Rice bowl of Selangor" because to its location
+                    on the flat, unbroken plains and there are many rice fields.
+                </p>
+            </div>
+            <!-- partthree -->
+            <div class="partthreemalacca" id="partthreemalacca">
+                <div class="topnavspace2"></div>
+                <div class="partthreemalaccaheader">
+                    <h2>Malacca</h2>
+                </div>
+                <div class="malaccarow">
+                    <img class="travelpic" id="malacca1" src="img/melaka1.jpg" alt="malacca1">
+                    <img class="travelpic" id="malacca2" src="img/melaka2.jpg" alt="malacca2">
+                    <img class="travelpic" id="malacca3" src="img/melaka3.jpg" alt="malacca3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer2">
+                      <img class="travelpic" src="img/melaka1.jpg" alt="malacca1">
+                    </div>
+                  
+                    <div class="slidecontainer2">
+                      <img class="travelpic" src="img/melaka2.jpg" alt="malacca2">
+                    </div>
+                  
+                    <div class="slidecontainer2">
+                      <img class="travelpic" src="img/melaka3.jpg" alt="malacca3">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+                <p>
+                    Malacca is a state in Malaysia that is next to the Strait of Malacca and is situated on the 
+                    southern tip of the Malay Peninsula. Malacca City, the nation's capital, is a renowned historic 
+                    city. Additionally, Malacca is home to Jonker Walk, which is a very well-known street. It's the 
+                    Chinatown neighbourhood of Malacca City, in the state of Malacca. On weekends, it bustles with 
+                    shoppers looking for a variety of cuisine and souvenirs as well as entertainment.
+                </p>
+            </div>
+            <!-- partfour -->
+            <div class="partfourlangkawi" id="partfourlangkawi">
+                <div class="topnavspace2"></div>
+                <div class="partfourlangkawiheader">
+                    <h2>Pulau Langkawi, Kedah</h2>
+                </div>
+                <div class="pulaulangkawirow">
+                    <img class="travelpic" id="pulaulangkawi1" src="img/langkawi1.jpg" alt="pulaulangkawi1">
+                    <img class="travelpic" id="pulaulangkawi2" src="img/langkawi2.jpg" alt="pulaulangkawi2">
+                    <img class="travelpic" id="pulaulangkawi3" src="img/langkawi3.jpg" alt="pulaulangkawi3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer3">
+                      <img class="travelpic" src="img/langkawi1.jpg" alt="pulaulangkawi1">
+                    </div>
+                  
+                    <div class="slidecontainer3">
+                      <img class="travelpic" src="img/langkawi2.jpg" alt="pulaulangkawi2">
+                    </div>
+                  
+                    <div class="slidecontainer3">
+                      <img class="travelpic" src="img/langkawi3.jpg" alt="pulaulangkawi2">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
+                <p>
+                    Pulau Langkawi is located in the state of Kedah. It&apos;s surrounded by a cluster of small islands and is
+                    situated in the north-western part of Peninsular Malaysia.. It always has year-round sunshine, enough
+                    rainfall, and cooling breezes.
+                </p>
+            </div>
+
+            <!-- partfive -->
+            <div class="partfivethailand" id="partfivethailand">
+                <div class="topnavspace2"></div>
+                <div class="partfivethailandheader">
+                    <h2>Thailand</h2>
+                </div>
+                <div class="thailandrow">
+                    <img class="travelpic" id="thailand1" src="img/thailand1.jpg" alt="thailand1">
+                    <img class="travelpic" id="thailand2" src="img/thailand2.jpg" alt="thailand2">
+                    <img class="travelpic" id="thailand3" src="img/thailand3.jpg" alt="thailand3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer4">
+                      <img class="travelpic" src="img/thailand1.jpg" alt="thailand1">
+                    </div>
+                  
+                    <div class="slidecontainer4">
+                      <img class="travelpic" src="img/thailand2.jpg" alt="thailand2">
+                    </div>
+                  
+                    <div class="slidecontainer4">
+                      <img class="travelpic" src="img/thailand3.jpg" alt="thailand3">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 3)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 3)">&#10095;</a>
+                </div>
+                <p>
+                    Thailand draws visitors from all over the world thanks to its stunning beaches, exciting nightlife, and 
+                    mouthwatering cuisine. Bangkok serves as the region's transportation hub and is home to many visitor sites, 
+                    including the Royal Palace, temples, floating markets, and amazing street cuisine. The northern city of 
+                    Chiang Mai is home to some of the world's best night markets and several historic temples.
+                </p>
+            </div>
+            <!-- partsix -->
+            <div class="partsixtaiwan" id="partsixtaiwan">
+                <div class="topnavspace2"></div>
+                <div class="partsixtaiwanheader">
+                    <h2>Taiwan</h2>
+                </div>
+                <div class="taiwanrow">
+                    <img class="travelpic" id="taiwan1" src="img/taiwan1.jpg" alt="taiwan1">
+                    <img class="travelpic" id="taiwan2" src="img/taiwan2.jpg" alt="taiwan2">
+                    <img class="travelpic" id="taiwan3" src="img/taiwan3.jpg" alt="taiwan3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer5">
+                      <img class="travelpic" src="img/taiwan1.jpg" alt="taiwan1">
+                    </div>
+                  
+                    <div class="slidecontainer5">
+                      <img class="travelpic" src="img/taiwan2.jpg" alt="taiwan2">
+                    </div>
+                  
+                    <div class="slidecontainer5">
+                      <img class="travelpic" src="img/taiwan3.jpg" alt="taiwan3">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 4)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 4)">&#10095;</a>
+                </div>
+                <p>
+                    Taiwan is home to some of the most breathtaking landscapes on earth. Taiwan's fascinating temple culture and 
+                    architecture should be experienced and explored. Highlights not to be missed include the magnificent Baoan 
+                    Temple near Taipei, the enormous complex at Foguangshan, and the architectural masterpiece known as Longshan 
+                    Temple in Lukang. Additionally, the night market in Taiwan is a must-visit location for tourists.
+                </p>
+            </div>
+            <!-- partseven -->
+            <div class="partsevensingapore" id="partsevensingapore">
+                <div class="topnavspace2"></div>
+                <div class="partsevensingaporeheader">
+                    <h2>Singapore</h2>
+                </div>
+                <div class="singaporerow">
+                    <img class="travelpic" id="singapore1" src="img/singapore1.jpg" alt="singapore1">
+                    <img class="travelpic" id="singapore2" src="img/singapore2.jpg" alt="singapore2">
+                    <img class="travelpic" id="singapore3" src="img/singapore3.jpg" alt="singapore3">
+                </div>
+                <div class="slideshow-container">
+                    <div class="slidecontainer6">
+                      <img class="travelpic" src="img/singapore1.jpg" alt="singapore1">
+                    </div>
+                  
+                    <div class="slidecontainer6">
+                      <img class="travelpic" src="img/singapore2.jpg" alt="singapore2">
+                    </div>
+                  
+                    <div class="slidecontainer6">
+                      <img class="travelpic" src="img/singapore3.jpg" alt="singapore3">
+                    </div>
+                  
+                    <a class="previousbtn" onclick="plusSlides(-1, 5)">&#10094;</a>
+                    <a class="nextbtn" onclick="plusSlides(1, 5)">&#10095;</a>
+                </div>
+                <p>
+                    Off the southernmost point of the Malay Peninsula in Southeast Asia, there is a sunny, tropical island called 
+                    Singapore. Singapore has all the charms that are likely to enthral visitors, including centuries-old temples, 
+                    lively hawker districts, and beautiful vegetation. Singapore is renowned for both its immaculate cleanliness 
+                    and low crime rate.
+                </p>
+            </div>
+            <!-- footer -->
+            <div class="lastpartfooter">
+                <div class="socialmediarow">
+                    <h3>Kien Ming</h3>
+                    <div class="socialmedialogo">
+                        <a href="https://www.facebook.com/profile.php?id=100007155271525" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-facebook-f"></i>
+                          </div>
+                        </a>
+                        <a href="https://twitter.com/kienming0916" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-twitter"></i>
+                          </div>
+                        </a>
+                        <a href="https://www.instagram.com/kienming_916/" target="_blank">
+                          <div class="circle">
+                            <i class="fa-brands fa-instagram"></i>
+                          </div>
+                        </a>
+                      </div>   
+                </div>
+                <div class="copyright">
+                    <div class="copyrightleft">
+                        <p>Copyright © 2022 KienMing. All Rights Reserved.</p>
+                    </div>
+                    <div class="copyrightright">
+                        <p>Terms of Use</p>
+                        <p>Privacy Policy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/forassignment.js"></script>
+    </body>
+</html>
