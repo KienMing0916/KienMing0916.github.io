@@ -4,6 +4,8 @@
         <title>About Me</title>
         <link rel="icon" type="image/x-icon" href="img/smileicon.png">
         <link href="css/aboutme.css" rel="stylesheet" />
+        <link href="css/forheaderandfooter.css" rel="stylesheet" />
+        <script src="js/forassignment.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +14,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container" id="container">
             <!-- overlay -->
             <div id="overlay">
                 <a id="closebutton" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -35,7 +37,7 @@
                     <div class="dropdown">
                         <a href="aboutme.html">About Me</a>
                         <div class="dropdown-content">
-                          <a href="aboutme.html">Introduction</a>
+                          <a href="aboutme.html#container">Introduction</a>
                           <a href="aboutme.html#parttwopersonalinformation">Personal Information</a>
                           <a href="aboutme.html#partthreeschoolattended">Schools and University College I attended</a>
                         </div>
@@ -51,12 +53,12 @@
                     <div class="dropdown">
                         <a href="mytravel.html">My Travel</a>
                         <div class="dropdown-content">
-                          <a href="#">Sekinchan, Selangor</a>
-                          <a href="#">Malacca</a>
-                          <a href="#">Pulau Langkawi, Kedah</a>
-                          <a href="#">Thailand</a>
-                          <a href="#">Taiwan</a>
-                          <a href="#">Singapore</a>
+                            <a href="mytravel.html#parttwosekinchan">Sekinchan, Selangor</a>
+                            <a href="mytravel.html#partthreemalacca">Malacca</a>
+                            <a href="mytravel.html#partfourlangkawi">Pulau Langkawi, Kedah</a>
+                            <a href="mytravel.html#partfivethailand">Thailand</a>
+                            <a href="mytravel.html#partsixtaiwan">Taiwan</a>
+                            <a href="mytravel.html#partsevensingapore">Singapore</a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +88,6 @@
             </div>
             <!-- parttwo -->
             <div class="parttwopersonalinformation" id="parttwopersonalinformation">
-                <div class="topnavspace"></div>
                 <h2>Personal Information</h2>
                 <div class="parttwoinformationrowone">
                     <div class="informationboxleft">
@@ -123,7 +124,6 @@
             </div>
             <!-- partthree -->
             <div class="partthreeschoolattended" id="partthreeschoolattended">
-                <div class="topnavspace2"></div>
                 <h2>Schools and University College I attended</h2>
                 <div class="primaryschool">
                     <div class="leftprimaryschool">
@@ -172,8 +172,8 @@
                     </div>
                 </div>
             </div>
-            <!-- partfour -->
-            <div class="partfourfooter">
+            <!-- footer -->
+            <div class="lastpartfooter">
                 <div class="socialmediarow">
                     <h3>Kien Ming</h3>
                     <div class="socialmedialogo">
@@ -205,14 +205,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            function openNav() {
-            document.getElementById("overlay").style.width = "100%";
-            }
-        
-            function closeNav() {
-            document.getElementById("overlay").style.width = "0%";
-            }
-        </script>
     </body>
 </html>

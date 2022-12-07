@@ -4,6 +4,8 @@
         <title>Kien Ming Assignment 1</title>
         <link rel="icon" type="image/x-icon" href="img/smileicon.png">
         <link href="css/homepage.css" rel="stylesheet" />
+        <link href="css/forheaderandfooter.css" rel="stylesheet" />
+        <script src="js/forassignment.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,12 +53,12 @@
                     <div class="dropdown">
                         <a href="mytravel.html">My Travel</a>
                         <div class="dropdown-content">
-                          <a href="#">Sekinchan, Selangor</a>
-                          <a href="#">Malacca</a>
-                          <a href="#">Pulau Langkawi, Kedah</a>
-                          <a href="#">Thailand</a>
-                          <a href="#">Taiwan</a>
-                          <a href="#">Singapore</a>
+                            <a href="mytravel.html#parttwosekinchan">Sekinchan, Selangor</a>
+                            <a href="mytravel.html#partthreemalacca">Malacca</a>
+                            <a href="mytravel.html#partfourlangkawi">Pulau Langkawi, Kedah</a>
+                            <a href="mytravel.html#partfivethailand">Thailand</a>
+                            <a href="mytravel.html#partsixtaiwan">Taiwan</a>
+                            <a href="mytravel.html#partsevensingapore">Singapore</a>
                         </div>
                     </div>
                 </div>
@@ -88,7 +90,6 @@
             </div>
             <!-- part2 aboutme -->
             <div class="parttwoaboutme" id="parttwoaboutme">
-                <div class="topnavspace"></div>
                 <h2>About Me</h2>
                 <p id="keepsmile">Keep smiling, because life is a beautiful thing and there's so much to smile about.</p>
                 <div class="aboutmecontainer">
@@ -128,15 +129,9 @@
                      this important thing, I would feel inadequate.<br>
                 </p>
                 <div class="sportmanimg">
-                    <a href="myfavourite.html#parttwoleeziijiaheader">
                         <img class="sportmanbox" src="img/ziijia.jpg" alt="ziijiaimg" height="300px" width="200px">
-                    </a>
-                    <a href="myfavourite.html#partthreekdheader">
                         <img class="sportmanbox" src="img/kd.jpg" alt="kdimg" height="300px" width="200px">
-                    </a>
-                    <a href="myfavourite.html#partfourmessiheader">
                         <img class="sportmanbox" src="img/messi.jpg" alt="messiimg" height="300px" width="200px">
-                    </a>
                 </div>
                 <a href="myfavourite.html">
                     <button class="buttomyfavourite">VIEW DETAILS</button> 
@@ -158,12 +153,12 @@
                 </p>
                 <div class="partfivetravelrowone">
                     <img class="travelimg1" src="img/sekinchan1.jpg" alt="sekinchan">
-                    <img class="travelimg1" id="travelimg2" src="img/melaka3.jpg" alt="malacca">
+                    <img class="travelimg1" src="img/melaka3.jpg" alt="malacca">
                     <img class="travelimg1" src="img/langkawi1.jpg" alt="langkawi">
                 </div>
                 <div class="partfivetravelrowtwo">
                     <img class="travelimg1" src="img/thailand1.jpg" alt="thailand">
-                    <img class="travelimg1" id="travelimg3" src="img/taiwan1.jpg" alt="taiwan">
+                    <img class="travelimg1" src="img/taiwan1.jpg" alt="taiwan">
                     <img class="travelimg1" src="img/singapore1.jpg" alt="singapore">
                 </div>
                 <a href="mytravel.html">
@@ -187,7 +182,7 @@
                                 <textarea id="message" name="message" rows="4" placeholder="message" required=""></textarea>
                             </div>
                             <a href="mytravel.html">
-                                <button class="buttonsend">SEND</button> 
+                                <button type="submit" class="buttonsend">SEND</button> 
                             </a>
                         </form>
                     </div>
@@ -232,8 +227,8 @@
                     <h3>No. 127, Jalan 7/5, Seksyen 9, 43650, Bandar Baru Bangi, Selangor</h3>
                 </a>
               </div>
-            <!-- part7 footer -->
-            <div class="partsevenfooter">
+            <!-- footer -->
+            <div class="lastpartfooter">
                 <div class="socialmediarow">
                     <h3>Kien Ming</h3>
                     <div class="socialmedialogo">
@@ -265,15 +260,5 @@
                 </div>
             </div>
         </div>
-        <!-- for top navigartion bar  -->
-        <script>
-            function openNav() {
-            document.getElementById("overlay").style.width = "100%";
-            }
-        
-            function closeNav() {
-            document.getElementById("overlay").style.width = "0%";
-            }
-        </script>
     </body>
 </html>
