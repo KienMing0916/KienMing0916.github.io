@@ -1,0 +1,197 @@
+.partonetravelintroduction{
+    display: flex;
+    background-image: radial-gradient(#004798, #112D4E, #112D4E);
+}
+
+.partonetravelintroductionleft{
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+
+#aeroplane{
+    padding: 6vw 0 2vw 0;
+    width: 60%;
+    height: auto;
+}
+
+.partonetravelintroductionright{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3vw 0;
+}
+
+.partonetravelintroductionright h2{
+    font-size: 3.2vw;
+    line-height: 1.8;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.partonetravelintroductionright p{
+    font-size: 1.4vw; 
+    line-height: 1.8;
+    color: white;
+    margin-top: -0.5vw;
+    padding: 0 8vw;
+}
+
+.parttwosekinchan, .partthreemalacca, .partfourlangkawi, .partfivethailand, .partsixtaiwan, .partsevensingapore{
+    background-color: #DBE2EF;
+    display: inline-block;
+}
+
+.parttwosekinchanheader, .partthreemalaccaheader, .partfourlangkawiheader, .partfivethailandheader, .partsixtaiwanheader, .partsevensingaporeheader{
+    display: inline-block;
+    width: 100%;
+    background-color: #B9E0FF;
+    border-top: solid black 2px;
+    border-bottom: solid black 2px;
+}
+
+.sekinchanimgrow, .malaccarow, .pulaulangkawirow, .thailandrow, .taiwanrow, .singaporerow{
+    display: flex;
+}
+
+.travelpic{
+    width: 33.33%;
+    height: 300px;
+}
+
+.parttwosekinchanheader h2, .partthreemalaccaheader h2, .partfourlangkawiheader h2, .partfivethailandheader h2, .partsixtaiwanheader h2, .partsevensingaporeheader h2{
+    text-align: center;
+    font-size: 3vw;
+    line-height: 0.7;
+}
+
+.parttwosekinchan p, .partthreemalacca p, .partfourlangkawi p, .partfivethailand p, .partsixtaiwan p{
+    font-size: 1.5vw; 
+    line-height: 1.8;
+    padding: 2vw 10vw 0 10vw;
+    text-align: center;
+}
+
+.partsevensingapore p{
+    font-size: 1.5vw; 
+    line-height: 1.8;
+    padding: 2vw 10vw 4vw 10vw;
+    text-align: center;
+}
+
+.topnavspace{
+    height: 4vw;
+    width: 100%;
+    background-color: #112D4E;
+}
+
+.topnavspace2{
+    height: 4vw;
+    width: 100%;
+    background-color: #DBE2EF;
+}
+
+.slideshow-container {
+    display: none;
+}
+
+.previousbtn, .nextbtn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 3vw;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vw;
+    transition: 0.6s ease;
+}
+
+.nextbtn {
+    right: 0;
+}
+
+.previousbtn:hover, .nextbtn:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 1000px) {
+    .travelpic{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    #aeroplane{
+        padding: 12vw 2vw 12vw 0;
+    }
+
+    .partonetravelintroductionright h2{
+        font-size: 4vw;
+    }
+
+    .partonetravelintroductionright p{
+        font-size: 2vw;
+        line-height: 1.6; 
+    }
+
+    .parttwosekinchan p, .partthreemalacca p, .partfourlangkawi p, .partfivethailand p, .partsixtaiwan p, .partsevensingapore p{
+        font-size: 2.1vw; 
+    }
+
+    .sekinchanimgrow, .malaccarow, .pulaulangkawirow, .thailandrow, .taiwanrow, .singaporerow{
+        display: none;
+    }
+
+    .slideshow-container {
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+
+    .travelpic{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .travelpic{
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .partonetravelintroduction{
+        flex-direction: column;
+    }
+
+    .partonetravelintroductionleft{
+        width: 100%;
+        justify-content: center;
+    }
+
+    #aeroplane{
+        width: 40%;
+        margin: -2px 0 -15px 5vw;
+        padding: 0;
+    }
+
+    .partonetravelintroductionright{
+        width: 100%;
+    }
+
+    .parttwosekinchanheader h2, .partthreemalaccaheader h2, .partfourlangkawiheader h2, .partfivethailandheader h2, .partsixtaiwanheader h2, .partsevensingaporeheader h2{
+        font-size: 4vw;
+    }
+
+    .travelpic{
+        height: 200px;
+    }
+}
+
+

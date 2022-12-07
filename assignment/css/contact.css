@@ -1,0 +1,246 @@
+.partonecontactinfo{
+    display: inline-block;
+    width: 100%;
+    /* background-color: #112D4E; */
+    background-image: radial-gradient(#004798, #112D4E, #112D4E);
+    color: white;
+}
+
+.partonecontactinfo h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height: 2;
+    padding: 0.5vw;
+    margin-bottom: -1vw;
+}
+
+.partonecontactinfo p{
+    text-align: center;
+    font-size: 1.5vw; 
+    line-height: 1.8;
+    padding-bottom: 3vw;
+}
+
+.parttwomap{
+    display: inline-block;
+    display: flex;
+    width: 100%;
+    position: relative;
+    background-color: #112D4E;
+}
+
+#map{
+    width: 100%;
+    height: 500px;
+}
+
+.contactform{
+    text-align: center;
+    border-radius: 10px;
+    border: black solid 3px;
+    padding: 1vw;
+    background-color: #DBE2EF;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translatey(-50%);
+}
+
+.contactform h2{
+    font-size: 3vw;
+    line-height: 0.8;
+}
+
+.rownameandphone , .rowemail, .rowmessage{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5vw 0;
+}
+
+#name{
+    width: 45%;
+    height: 30px;
+}
+
+#phonenumber{
+    width: 45%;
+    height: 30px;
+}
+
+#email{
+    width: 100%;
+    height: 30px;
+}
+
+#message{
+    width: 100%;
+}
+
+.buttonsend{
+    font-size: 1vw;
+    color: white;
+    border: none;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: #112D4E;
+    cursor:pointer;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.buttonsend:hover{
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+}
+
+
+.partthreecontactdetails{
+    display: flex;
+    background-color: #F9F7F7;
+}
+
+.partthreecontactdetails a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 33%;
+    border: solid black 1px;
+    border-bottom: none;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+    padding: 2vw 1vw 1vw 1vw;
+}
+
+.partthreecontactdetails h4{
+    font-size: 1.5vw;
+    line-height: 0;
+}
+
+.detailrow{
+    display: flex;
+    justify-content: center;
+}
+
+.circle2{
+    position: relative;
+    display: flex;
+    width: 3vw;
+    height: 3vw;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: #112D4E;
+}
+
+.circle2 i{
+    font-size: 1vw;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .partonecontactinfo h2{
+        font-size: 4.5vw;
+    }
+
+    .partonecontactinfo p{
+        font-size: 1.8vw; 
+    }
+
+    .parttwomap{
+        display: flex;
+        position: static;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .contactform{
+        position: static;
+        width: 50%;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        top: 0%;
+        left: 0%;
+        transform: translatey(0%);
+        
+    }
+
+    .buttonsend{
+        font-size: 1.5vw;
+        padding: 2vw 3vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #map{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .partonecontactinfo h2{
+        font-size: 5vw;
+    }
+
+    .partonecontactinfo p{
+        font-size: 2vw; 
+    }
+
+    .contactform h2{
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+
+    .buttonsend{
+        font-size: 2vw;
+        padding: 2vw 3vw; 
+    }
+
+    #map{
+        height: 350px;
+    }
+
+    .partthreecontactdetails{
+        flex-direction: column;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        width: 100%;
+    }
+
+    .partthreecontactdetails a{
+        border-left: none;
+        border-right: none;
+        width: 100%;
+        padding: 0;
+        border-bottom: solid black 1px;
+        font-size: 1.5vw;
+    }
+
+    .partthreecontactdetails h4{
+        font-size: 2.3vw;
+        line-height: 0;
+    }
+
+    .partthreecontactdetails h3{
+        font-size: 2.4vw;
+        line-height: 1;
+    }
+
+    .contactform{
+        width: 70%;
+    }
+}
