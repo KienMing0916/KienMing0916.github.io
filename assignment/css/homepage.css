@@ -139,9 +139,8 @@
 
 #catpic{
     margin: 2vw; 
-    max-width: 120px;
-    max-height: 120px;
-    width: 50%;
+    width: 120px;
+    height: 120px;
 }
 
 #wrapbuttondiv{
@@ -196,7 +195,7 @@
     width: 100%;
     background-color: black;
     color: white;
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     text-align: center;
     padding: 0.2vw 0;
 }
@@ -233,7 +232,7 @@
 
 #travelback{
     width: 100%;
-    height: 500px;
+    height: 600px;
 }
 
 .partfivetravel{
@@ -268,32 +267,6 @@
     height: 300px;
 }
 
-.partsixcontact{
-    display: inline-block;
-    display: flex;
-    width: 100%;
-    background-color: #112D4E;
-}
-
-.partsixcontactleft{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-}
-
-.contactform{
-    text-align: center;
-    border-radius: 10px;
-    margin: 5vw;
-    padding: 1vw;
-    background-color: #DBE2EF;
-}
-
-.contactform h2{
-    font-size: 3vw;
-    line-height: 0.8;
-}
-
 .rownameandphone , .rowemail, .rowmessage{
     display: flex;
     flex-direction: row;
@@ -321,29 +294,6 @@
     width: 100%;
 }
 
-.partsixcontactright{
-    padding: 9vw;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    width: 50%;
-    color: white;
-}
-
-.partsixcontactright h2{
-    font-size: 3.5vw;
-    text-align: center;
-    color: white;
-    line-height: 0.5;
-}
-
-.partsixcontactright p{
-    font-size: 1.5vw;
-    text-align: center;
-    color: white;
-    line-height: 1.5;
-}
-
 .partsixdetailfooter{
     display: flex;
     background-color: #F9F7F7;
@@ -356,8 +306,6 @@
     text-align: center;
     width: 33%;
     border: solid black 1px;
-    border-top: none;
-    border-bottom: none;
     text-decoration: none;
     color: black;
     font-size: 1.2vw;
@@ -409,12 +357,8 @@
         max-height: 100px;
     }
 
-    .partsixcontactright h2{
-        font-size: 4vw;
-    }
-    
-    .partsixcontactright p{
-        font-size: 2vw;
+    #travelback{
+        height: 500px;
     }
 
 }
@@ -484,7 +428,7 @@
     }
 
     .parttwofooter, .partfourfooter{
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     .partfivetravelrowone, .partfivetravelrowtwo{
@@ -494,18 +438,6 @@
     .travelimg1{
         width: 100%;
         height: 300px;
-    }
-
-    .partsixcontactleft{
-        width: 60%;
-    }
-
-    .partsixcontactright{
-        width: 40%;
-    }
-
-    .contactform{
-        margin: 3vw;
     }
 }
 
@@ -521,14 +453,6 @@
     #catpic{
         max-width: 70px;
         max-height: 70px;
-    }
-
-    .partsixcontactleft{
-        width: 70%;
-    }
-
-    .partsixcontactright{
-        width: 30%;
     }
 }
 
@@ -585,12 +509,12 @@
     .sportmanbox{
         margin: 2vw;
         height: 200px;
-        width: 50%;
+        width: 150px;
     }
     
     .sportmanbox:hover{
-        width: 230px;
-        height: 230px;
+        width: 180px;
+        height: 220px;
     }
 
     #keepsmile, .partthreemyfavourite p, .partfivetravel p{
@@ -607,11 +531,11 @@
     }
 
     #travelback{
-        height: 350px;
+        height: 250px;
     }
 
     .parttwofooter, .partfourfooter{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     .partfivetravel h2{
@@ -624,40 +548,6 @@
 
     .travelimg1{
         height: 200px;
-    }
-
-    .contactform{
-        width: 70%;
-        margin: 0 0 5vw 0;
-    }
-
-    .contactform h2{
-        font-size: 4vw;
-        line-height: 1.2;
-    }
-
-    .partsixcontact{
-        flex-direction: column;
-    }
-
-    .partsixcontactleft{
-        width: 100%;
-        order: 2;
-    }
-
-    .partsixcontactright{
-        width: 100%;
-        order: 1;
-        margin-top: 3vw;
-        padding: 0;
-    }
-
-    .partsixcontactright h2{
-        font-size: 5vw;
-    }
-
-    .partsixcontactright p{
-        font-size: 2.2vw;
     }
 
     .partsixdetailfooter{
