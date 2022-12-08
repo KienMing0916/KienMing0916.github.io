@@ -233,6 +233,11 @@ p{
     font-size: 1.2vw;
 }
 
+.copyright a{
+    text-decoration: none;
+    color: white;
+}
+
 .copyrightleft{
     margin: 1.5vw;
 }
