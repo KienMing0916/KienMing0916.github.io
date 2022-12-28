@@ -1,0 +1,48 @@
+html, body, .container-fluid{
+    scroll-behavior: smooth;
+    margin:0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Roboto';
+}
+
+p, li{
+    font-family: sans-serif;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.navbar .container-lg .collapse ul>li> a{
+    transition: 0.3s;
+}
+
+.navbar .container-lg .collapse ul>li> a:hover{
+    background-color: black;
+}
+
+@media screen and (max-width:768px) {
+        .footer{
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .cell{
+            margin-bottom: 30px;
+        }
+
+        .social{
+            gap: 5px;
+        }
+
+        br {
+            visibility: hidden;
+            display: none;
+        }
+}
