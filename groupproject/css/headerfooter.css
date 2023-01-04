@@ -1,7 +1,36 @@
+.mycontainer6, .mycontainer7 {
+    display: flex;
+    justify-content: center;
+}
+
+.mycontainer6 {
+    color: white;
+}
+
+.check h4 {
+    font-size: 1.5vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 html, body, .container-fluid{
     scroll-behavior: smooth;
     margin:0;
     padding: 0;
+}
+
+#navbtn1:hover, #navbtn2:hover, #navbtn3:hover, #navbtn4:hover, #navbtn5:hover{
+    background-color: black;
 }
 
 h1, h2, h3, h4, h5{
