@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTY Operating system</title>
-        <link rel="icon" type="image/x-icon" href="img/HTYlogo.png">
-        <link href="css/aisolution.css" rel="stylesheet" />
-        <link href="css/headerfooter.css" rel="stylesheet">
-        <link href="css/services.css" rel="stylesheet" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    </head>
-    <body>
+
+<head>
+    <title>Operating system | HTY</title>
+    <link rel="icon" type="image/x-icon" href="img/HTYlogo.png">
+    <link href="css/aisolution.css" rel="stylesheet" />
+    <link href="css/headerfooter.css" rel="stylesheet">
+    <link href="css/services.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
         <div class="container-fullwidth">
             <!-- nav -->
             <nav class="navbar navbar-expand-md bg-dark">
                 <div class="container-lg">
-                    <a class="navbar gap-1 navbar-brand" href="#">
-                        <img src="img/HTYlogo.png" alt="" width="60px">
+                    <a class="navbar gap-1 navbar-brand" href="index.html"><img src="img/HTYlogo.png" width="60px">
                         <h1 class="text-light border-end px-3 border-light">HTY</h1>
                     </a>
-                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-        
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                         <ul class="navbar-nav gap-5">
                             <li class="nav-item">
-                                <a class="nav-link active text-light rounded" aria-current="page" href="#"><h4>About Us</h4></a>
+                                <a class="nav-link active text-light rounded" aria-current="page" href="about.html">
+                                    <h4>About</h4>
+                                </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link text-light rounded" href="#" role="" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    <h4 class="dropdown-toggle">Services</h4>
+                                    <h4 class="dropdown-toggle">Service</h4>
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="aisolution.html">AI</a></li>
+                                    <li><a class="dropdown-item" href="service.html">Introduction</a></li>
+                                    <li><a class="dropdown-item" href="aisolution.html">Artificial Intelligence</a></li>
                                     <li><a class="dropdown-item" href="application.html">Application</a></li>
                                     <li><a class="dropdown-item" href="server.html">Server</a></li>
                                     <li><a class="dropdown-item" href="database.html">Database</a></li>
@@ -48,10 +56,14 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light rounded" href="#"><h4>Blog</h4></a>
+                                <a class="nav-link text-light rounded" href="blog.html">
+                                    <h4>Blog</h4>
+                                </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-light rounded" href="#"><h4>Contact</h4></a>
+                                <a class="nav-link text-light rounded" href="contact.html">
+                                    <h4>Contact</h4>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -60,9 +72,12 @@
             <!-- partoneslideshow -->
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
-                    <button class="buttoncontrol active" type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
-                    <button class="buttoncontrol" type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button class="buttoncontrol" type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button class="buttoncontrol active" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide-to="0" aria-current="true" aria-label="Slide 1"></button>
+                    <button class="buttoncontrol" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button class="buttoncontrol" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="2000">
@@ -74,34 +89,46 @@
                     <div class="carousel-item" data-bs-interval="2000">
                         <img src="img/os3.jpg" class="d-block w-100" alt="aisolution">
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
                 </div>
                 <div class="col" id="titlediv" style="width:100%; background-color: #222831;">
-                    <div class="title pb-3"><h1>Operating system</h1></div>
-                    <div class="subtitle pb-3"><h3>Highly secure and scalable operating system <br>for running mission-critical applications</h3></div>
-                    <div class="titlebutton"><button type="button" class="buttonone rounded-4 border-0" style="background-color: #0000FF;">Book a meeting</button></div>
+                    <div class="title pb-3">
+                        <h1>Operating system</h1>
+                    </div>
+                    <div class="subtitle pb-3">
+                        <h3>Highly secure and scalable operating system <br>for running mission-critical applications
+                        </h3>
+                    </div>
+                    <a href="contact.html">
+                        <div class="titlebutton"><button type="button" class="buttonone rounded-4 border-0"
+                                style="background-color: #0000FF;">Book a meeting</button></div>
+                    </a>
                 </div>
             </div>
         </div>
         <!-- parttwogetstarted -->
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 d-flex justify-content-center align-items-center p-md-5 p-3" style="background-color: #E2DCC8;">
+                <div class="col-md-2 d-flex justify-content-center align-items-center p-md-5 p-3"
+                    style="background-color: #E2DCC8;">
                     <h1 class="verticaltext">Overview</h1>
                 </div>
-                <div class="col-md-10 d-flex flex-column justify-content-center p-md-5 p-4" style="background-color: #222831;">
+                <div class="col-md-10 d-flex flex-column justify-content-center p-md-5 p-4"
+                    style="background-color: #222831;">
                     <h3 class="ms-3">Take your business to the next level</h3>
-                    <p class="ms-3 my-2">HTY provides the computing power and resources of the HTY 
-                        Systems platform to help you drive business transformation 
-                        and accelerate innovation. Help organizations establish the 
-                        secure and stable environment they need to improve the 
+                    <p class="ms-3 my-2">HTY provides the computing power and resources of the HTY
+                        Systems platform to help you drive business transformation
+                        and accelerate innovation. Help organizations establish the
+                        secure and stable environment they need to improve the
                         performance of mission-critical workloads and meet future
                         challenges.
                     </p>
@@ -119,39 +146,42 @@
             <div class="rowforflip d-flex flex-wrap justify-content-center">
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center" >
-                        <img src="img/accelerate.png" alt="" width="100px">
-                        <h5>Accelerate Hybrid Cloud</h5>
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Accelerate Hybrid Cloud</h5>
-                        <p>Enables rapid application development and provisioning that facilitates hybrid cloud deployments</p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/accelerate.png" alt="" width="100px">
+                            <h5>Accelerate Hybrid Cloud</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Accelerate Hybrid Cloud</h5>
+                            <p>Enables rapid application development and provisioning that facilitates hybrid cloud
+                                deployments</p>
+                        </div>
                     </div>
                 </div>
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
-                        <img src="img/improve.png" alt="" width="100px">
-                        <h5>Improve usability</h5>
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Improve usability</h5>
-                        <p>A simplified, modern experience for installing, administering, and using z/OS with no special skills required.</p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/improve.png" alt="" width="100px">
+                            <h5>Improve usability</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Improve usability</h5>
+                            <p>A simplified, modern experience for installing, administering, and using z/OS with no
+                                special skills required.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
-                        <img src="img/Protection.png" alt="" width="100px">
-                        <h5>Support Security and Resilience</h5> 
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Support Security and Resilience</h5> 
-                        <p>Use cybersecurity solutions to create a competitive advantage and help maintain a highly resilient environment.
-                        </p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/Protection.png" alt="" width="100px">
+                            <h5>Support Security and Resilience</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Support Security and Resilience</h5>
+                            <p>Use cybersecurity solutions to create a competitive advantage and help maintain a highly
+                                resilient environment.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -165,153 +195,201 @@
             </div>
         </div>
         <div class="row w-100 m-0">
-            <div class="col-md-6 accordioncolone" style="background-color: #E2DCC8;">
+            <div class="col-md-6" style="background-color: #E2DCC8;">
                 <div class="accordion" id="accordionExample" style="background-color: #E2DCC8;">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: #222831;">
-                            <h5>1. Simplified management</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne"
+                                style="background-color: #222831;">
+                                <h5>1. Simplified management</h5>
+                            </button>
                         </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Simplify data archiving in the cloud using serverless data movement and storage cloud communications.</p>
+                                <p>• Simplify data archiving in the cloud using serverless data movement and storage
+                                    cloud communications.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>2. Upgrade Workflow</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>2. Upgrade Workflow</h5>
+                            </button>
                         </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Enable and drive innovation to support new hybrid cloud and AI business applications.</p>
+                                <p>• Enable and drive innovation to support new hybrid cloud and AI business
+                                    applications.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: #222831;">
-                            <h5>3. Linux integration</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"
+                                style="background-color: #222831;">
+                                <h5>3. Linux integration</h5>
+                            </button>
                         </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Integrate popular open source packages, Linux applications, HTY software, and third-party software.</p>
+                                <p>• Integrate popular open source packages, Linux applications, HTY software, and
+                                    third-party software.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>4. Cloud provisioning</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>4. Cloud provisioning</h5>
+                            </button>
                         </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Easily create software service templates that provide HTY middleware for additional functionality.</p>
+                                <p>• Easily create software service templates that provide HTY middleware for additional
+                                    functionality.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree" style="background-color: #222831;">
-                            <h5>5. JSON database</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree"
+                                style="background-color: #222831;">
+                                <h5>5. JSON database</h5>
+                            </button>
                         </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Easily create and access JSON databases through a comprehensive set of C-based APIs.</p>
+                                <p>• Easily create and access JSON databases through a comprehensive set of C-based
+                                    APIs.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSix">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>6. Management service</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>6. Management service</h5>
+                            </button>
                         </h2>
-                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionExample">
                             <div class="accordion-body">
-                                <p>• Deploy services to simplify management tasks and apply best practices and internal standards.</p>
+                                <p>• Deploy services to simplify management tasks and apply best practices and internal
+                                    standards.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 accordioncoltwo" style="background-color: #E2DCC8;">
+            <div class="col-md-6" style="background-color: #E2DCC8;">
                 <div class="accordion" id="accordionExample2" style="background-color: #E2DCC8;">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree" style="background-color: #222831;">
-                            <h5>7. Streamlined software installation</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseThree"
+                                style="background-color: #222831;">
+                                <h5>7. Streamlined software installation</h5>
+                            </button>
                         </h2>
-                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Simplify the installation and setup of software in the z/OS stack with the simplified ServerPac.</p>
+                                <p>• Simplify the installation and setup of software in the z/OS stack with the
+                                    simplified ServerPac.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>8. Guided Software Update</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>8. Guided Software Update</h5>
+                            </button>
                         </h2>
-                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Simplify maintenance with a guided experience for installing corrective and feature updates.</p>
+                                <p>• Simplify maintenance with a guided experience for installing corrective and feature
+                                    updates.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree" style="background-color: #222831;">
-                            <h5>9. Speed up recovery</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseThree"
+                                style="background-color: #222831;">
+                                <h5>9. Speed up recovery</h5>
+                            </button>
                         </h2>
-                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Restore services and restore workloads much faster with zero increase in licensing costs.</p>
+                                <p>• Restore services and restore workloads much faster with zero increase in licensing
+                                    costs.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTen">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>10. IT Security Resilience</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>10. IT Security Resilience</h5>
+                            </button>
                         </h2>
-                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample2">
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Adapt and respond quickly to disruptions or threats to continue operations without significant impact.</p>
+                                <p>• Adapt and respond quickly to disruptions or threats to continue operations without
+                                    significant impact.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEleven">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseThree" style="background-color: #222831;">
-                            <h5>11. Pervasive encryption</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseThree"
+                                style="background-color: #222831;">
+                                <h5>11. Pervasive encryption</h5>
+                            </button>
                         </h2>
-                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample2">
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Supports broad encryption of data in motion and at rest to protect data and enable compliance.</p>
+                                <p>• Supports broad encryption of data in motion and at rest to protect data and enable
+                                    compliance.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwelve">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo" style="background-color: #222831;">
-                            <h5>12. Simplified data archiving</h5>
-                        </button>
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwo"
+                                style="background-color: #222831;">
+                                <h5>12. Simplified data archiving</h5>
+                            </button>
                         </h2>
-                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample2">
+                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                            data-bs-parent="#accordionExample2">
                             <div class="accordion-body">
-                                <p>• Simplify data archiving in the cloud using serverless data movement and storage cloud communications.</p>
+                                <p>• Simplify data archiving in the cloud using serverless data movement and storage
+                                    cloud communications.</p>
                             </div>
                         </div>
                     </div>
@@ -328,81 +406,113 @@
             <div class="rowforflip d-flex flex-wrap justify-content-center">
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
-                        <img src="img/operation.png" alt="" width="100px">
-                        <h5>Workload Automation</h5>
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Workload Automation</h5>
-                        <p>Orchestrate configuration management, application deployment, and provisioning IT tasks on z/OS.</p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/operation.png" alt="" width="100px">
+                            <h5>Workload Automation</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Workload Automation</h5>
+                            <p>Orchestrate configuration management, application deployment, and provisioning IT tasks
+                                on z/OS.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
-                        <img src="img/resilience.png" alt="" width="100px">
-                        <h5>Container image</h5>
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Container image</h5>
-                        <p>Download free open source container images that run in the zCX environment on Linux and z/OS.</p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/resilience.png" alt="" width="100px">
+                            <h5>Container image</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Container image</h5>
+                            <p>Download free open source container images that run in the zCX environment on Linux and
+                                z/OS.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="flipbox m-3 mb-5 p-0">
                     <div class="flipbox-inner text-center">
-                      <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
-                        <img src="img/improve.png" alt="" width="100px">
-                        <h5>Modernization</h5> 
-                      </div>
-                      <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
-                        <h5>Modernization</h5>
-                        <p>Initiate or accelerate application modernization and adopt a standardized approach to IT automation.</p>
-                      </div>
+                        <div class="flipbox-front d-flex  flex-column justify-content-center align-items-center">
+                            <img src="img/improve.png" alt="" width="100px">
+                            <h5>Modernization</h5>
+                        </div>
+                        <div class="flipbox-back d-flex  flex-column justify-content-center align-items-center">
+                            <h5>Modernization</h5>
+                            <p>Initiate or accelerate application modernization and adopt a standardized approach to IT
+                                automation.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        
+
+
+
         <!-- footer -->
         <div class="footer bg-dark p-3 d-flex justify-content-around">
             <div class="cell text-light">
-                <a class="nav-link" href="#"><h6 class="fw-bold">HTY TECHNO</h6></a>
-                <a class="nav-link" href="#"><h6>About</h6></a>
-                <a class="nav-link" href="#"><h6>Service</h6></a>
-                <a class="nav-link" href="#"><h6>Blog</h6></a>
-                <a class="nav-link" href="#"><h6>Contact</h6></a>
+                <a class="nav-link" href="index.html">
+                    <h6 class="fw-bold">HTY TECHNO</h6>
+                </a>
+                <a class="nav-link" href="about.html">
+                    <h6>About</h6>
+                </a>
+                <a class="nav-link" href="service.html">
+                    <h6>Service</h6>
+                </a>
+                <a class="nav-link" href="blog.html">
+                    <h6>Blog</h6>
+                </a>
+                <a class="nav-link" href="contact.html">
+                    <h6>Contact</h6>
+                </a>
             </div>
-    
+
             <div class="text-light">
-                <a class="nav-link" href="#"><h6 class="fw-bold">Services</h6></a>
-                <a class="nav-link" href="aisolution.html"><h6>AI</h6></a>
-                <a class="nav-link" href="application.html"><h6>App</h6></a>
-                <a class="nav-link" href="server.html"><h6>Server</h6></a>
-                <a class="nav-link" href="database.html"><h6>Database</h6></a>
+                <h6 class="fw-bold">Services</h6>
+                <a class="nav-link" href="aisolution.html">
+                    <h6>Artificial Intelligence</h6>
+                </a>
+                <a class="nav-link" href="application.html">
+                    <h6>Application</h6>
+                </a>
+                <a class="nav-link" href="server.html">
+                    <h6>Server</h6>
+                </a>
+                <a class="nav-link" href="database.html">
+                    <h6>Database</h6>
+                </a>
             </div>
-    
+
             <div class="cell text-light">
                 <h10><br></h10>
-                <a class="nav-link" href="network.html"><h6>Networking</h6></a>
-                <a class="nav-link" href="os.html"><h6>Operating System</h6></a>
-                <a class="nav-link" href="website.html"><h6>Website</h6></a>
+                <a class="nav-link" href="network.html">
+                    <h6>Networking</h6>
+                </a>
+                <a class="nav-link" href="os.html">
+                    <h6>Operating System</h6>
+                </a>
+                <a class="nav-link" href="website.html">
+                    <h6>Website</h6>
+                </a>
             </div>
-    
+
             <div class="cell text-light text-center">
-                <a class="nav-link" href="#"><h6 class="fw-bold">Follow Us</h6></a>
+                <h6 class="fw-bold">Follow Us</h6>
                 <div class="social">
-                    <a class="nav-link" href="https://www.facebook.com/zhu.zhu.98499"  target="_blank"><h6 class="rounded-circle p-2 bg-light"><img src="img/facebook.png" alt="" width="30px" height="30px"></h6></a>
-                    <a class="nav-link" href="https://www.instagram.com/jirohaw_0214/" target="_blank"><h6 class="rounded-circle p-2 bg-light"><img src="img/instagram.png" alt="" width="30px"></h6></a>
+                    <a class="nav-link" href="https://www.facebook.com/zhu.zhu.98499" target="_blank">
+                        <h6 class="rounded-circle p-2 bg-light"><img src="img/facebook.png" alt="" width="30px"
+                                height="30px"></h6>
+                    </a>
+                    <a class="nav-link" href="https://www.instagram.com/jirohaw_0214/" target="_blank">
+                        <h6 class="rounded-circle p-2 bg-light"><img src="img/instagram.png" alt="" width="30px"></h6>
+                    </a>
                 </div>
             </div>
         </div>
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            crossorigin="anonymous"
-        ></script>    
-    </body>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>

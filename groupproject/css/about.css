@@ -1,0 +1,314 @@
+.slideshow {
+    background-image: url(../img/aboutbg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: auto;
+}
+
+.slideshow h1 {
+    font-size: 4vw;
+    text-shadow: 7px 7px 5px black;
+}
+
+.slideshow h2 {
+    font-size: 2.5vw;
+}
+
+.slidetext {
+    max-width: 30%;
+    margin-top: 250px;
+    margin-left: 50px;
+    font-size: 2.2vw;
+    text-shadow: 7px 7px 5px black;
+}
+
+.buttonone{
+    color: white;
+    padding: 0.7vw 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.1vw;
+}
+
+.buttonone:hover{
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+}
+
+.btnslideshow {
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+}
+
+.mybtn {
+    font-size: 1.1vw;
+    margin-bottom: 10px;
+}
+
+.mydropdown {
+    display: none;
+}
+
+.overview h4 {
+    font-size:2.2vw;
+    max-width: 55%;
+}
+
+.overview p {
+    font-size: 1.5vw;
+    max-width: 15%;
+}
+
+.overview a {
+    font-size: 1.5vw;
+}
+
+.overview a:hover {
+    text-decoration: underline;
+}
+
+.nav-item a {
+    color: black;
+}
+
+#navbtn1:hover,#navbtn2:hover,#navbtn3:hover,#navbtn4:hover,#navbtn5:hover{
+    background-color: grey;
+    color: black;
+}
+
+.mycontainer3 {
+    display: flex;
+}
+
+.altercontainer3 {
+    display: none;
+}
+
+.leftpanel {
+    min-width: 25%;
+    font-size: 2.5vw;
+    background-color: #A5C9CA;
+}
+
+.leftpanel1 {
+    min-width: 25%;
+    font-size: 2.5vw;
+    background-color: #E2DCC8;
+}
+
+.rightpanel {
+    background-color: #E2DCC8;
+}
+
+.rightpanel p {
+    font-size: 1.8vw;
+}
+
+.rightpanel1 {
+    background-color: #A5C9CA;
+}
+
+.rightpanel1 p {
+    font-size: 1.8vw;
+}
+
+.mycontainer4 {
+    display: flex;
+}
+
+.mycontainer4 .rightpanel1 {
+    border-bottom: black solid 5px;
+}
+
+.secondslide {
+    display: none;
+}
+
+.secondnav a {
+    font-size: 2.2vw;
+    padding: 0 10px 10px 10px;
+}
+
+.secondnav a:hover{
+    text-decoration: underline;
+}
+
+.mycard {
+    margin: 50px;
+}
+
+.mycard div {
+    width: 100%;
+}
+
+.righttext h4 {
+    font-size: 2.2vw;
+}
+
+.righttext a {
+    font-size: 1.1vw;
+}
+
+.mycontainer5 {
+    display: flex;
+}
+
+.mycontainer6 {
+    display: flex;
+    justify-content: center;
+}
+
+.check h4 {
+    font-size: 1.8vw;
+}
+
+@media screen and (max-width:768px) {
+    
+    .slideshow h1 {
+        font-size: 5vw;
+    }
+
+    .slidetext h2 {
+        text-align: center;
+        font-size: 4.5vw;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .btnslideshow {
+        display: block;
+    }
+
+    .myslidecontainer {
+        text-align: center;
+        background-color: #222831;
+    }
+
+    .slidetext {
+        margin: auto;
+        margin-top: 250px;
+        min-width: 100%;
+    }
+
+    .myslidecontainer h2{
+        padding-top: 20px;
+    }
+
+    .mybtn {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .buttonone{
+        font-size: 4vw;
+    }
+
+    .titlebutton{
+        padding-bottom: 3vw;
+    }
+
+    .mycontainer1 {
+        display: none;
+    }
+
+    .mydropdown {
+        display: block;
+    }
+
+    .mydropdown li a {
+        color: black;
+        font-size: 4vw;
+        padding: 10px;
+    }
+
+    .mycontainer2 {
+        max-width: 100%;
+    }
+
+    .overview h4 {
+        font-size: 4.5vw;
+        max-width: 100%;
+    }
+
+    .overview p {
+        font-size: 4vw;
+        max-width: 40%;
+    }
+
+    .overview a {
+        font-size: 4vw;
+    }
+
+    .mycontainer3 {
+        display: none;
+    }
+
+    .altercontainer3 {
+        display: block;
+    }
+
+    .altercontainer3 div h4 {
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    .altercontainer3 div p {
+        text-align: center;
+        font-size: 4.5vw;
+    }
+
+    .altercontainer3 div a {
+        font-size: 4vw;
+    }
+
+    .secondslide {
+        display: block;
+    }
+
+    .mycontainer4 {
+        display: block;
+    }
+
+    .mycontainer4 .leftpanel1 {
+        background-color: #A5C9CA;
+    }
+
+    .mycontainer4 .rightpanel1 {
+        border: none;
+        background-color: #E2DCC8;
+    }
+
+    .mycontainer4 div h4 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .mycontainer4 div p {
+        font-size: 4.5vw;
+    }
+
+    .mycontainer5 {
+        display: block;
+    }
+
+    .mycontainer5 .leftpanel{
+        border: none;
+    }
+
+    .mycontainer5 div h4 {
+        font-size: 5vw;
+        text-align: center;
+    }
+
+    .mycontainer5 div p {
+        font-size: 4.5vw;
+    }
+
+    .mycontainer6 {
+        display: none;
+    }
+
+    .nav-item a {
+        font-size: 4vw;
+    }
+}

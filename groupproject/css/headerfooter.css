@@ -1,40 +1,12 @@
-.mycontainer6, .mycontainer7 {
-    display: flex;
-    justify-content: center;
-}
-
-.mycontainer6 {
-    color: white;
-}
-
-.check h4 {
-    font-size: 1.5vw;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 html, body, .container-fluid{
     scroll-behavior: smooth;
     margin:0;
     padding: 0;
 }
 
-#navbtn1:hover, #navbtn2:hover, #navbtn3:hover, #navbtn4:hover, #navbtn5:hover{
-    background-color: black;
-}
-
 h1, h2, h3, h4, h5{
     font-family: 'Roboto';
+    align-items: center;
 }
 
 p, li{
@@ -53,10 +25,19 @@ p, li{
 }
 
 .navbar .container-lg .collapse ul>li> a:hover{
-    background-color: black;
+    background-color: grey;
 }
 
-@media screen and (max-width:768px) {
+.nav-link h4{
+    margin:0;
+}
+
+.cell a:hover, .text-light a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media screen and (max-width:768px){
         .footer{
             flex-direction: column;
             text-align: center;

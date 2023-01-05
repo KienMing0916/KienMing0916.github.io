@@ -1,4 +1,148 @@
-#carouselExampleSlidesOnly{
-    position: relative;
+.title h1,.subtitle h3, .mycontainer1 h4 {
     color: white;
+}
+
+.title h1,.subtitle h3{
+    text-shadow: 7px 7px 5px black;
+}
+
+.mycontainer6 h4{
+    color: black;
+}
+
+#titlediv h3{
+    padding-bottom: 5vw;
+}
+
+.buttonone {
+    color: white;
+    padding: 0.7vw 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.1vw;
+}
+
+.buttonone:hover {
+    background-image: linear-gradient(to right, #09008a, #6358fb);
+}
+
+.mycontainer1 div h4 {
+    font-size: 2.2vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.consult{
+    font-size: 2.2vw;
+}
+
+.mycontainer6 div h4{
+    font-size: 2vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.check{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btnevent{
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+}
+
+.row{
+    background-color: #E2DCC8;
+}
+
+.row h4{
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: black;
+}
+
+.card-body a{
+    color: #22A39F;
+    text-decoration: none;
+}
+
+.card-body h5,h6{
+    color: white;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-body a:hover{
+    text-decoration: underline;
+    color: #22A39F;
+}
+
+.mycontainer6 h3{
+    font-weight: bold;
+    padding-top: 1vw;
+    padding-left: 3vw;
+}
+
+.mycontainer6 h4{
+    padding-top: 1vw;
+    padding-left: 3vw;
+    padding-right: 20vw;
+}
+
+.consult{
+    color: black;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:700px) {
+    .buttonone {
+        font-size: 4vw;
+    }
+
+    .mycontainer1 div div h4{
+        font-size: 4.5vw;
+        padding: 0vw 0vw 0vw 0vw;
+        text-align: center;
+    }
+
+    .consult{
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    
+    .mycontainer6 div h4{
+        font-size: 4vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
+    }
+
+    .row h4{
+        padding-top: 5vw;
+    }
+
+    .check{
+        display: block;
+    }
+
+    .btnevent{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mycontainer6 h3{
+        padding-left: 0vw;
+        text-align: center;
+    }
+
+    .mycontainer6 h4{
+        padding:0vw;
+        text-align: center;
+    }
 }

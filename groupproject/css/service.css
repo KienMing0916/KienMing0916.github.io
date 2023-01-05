@@ -1,0 +1,179 @@
+.slideshow {
+    background-image: url(../img/servicebg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.slidetext {
+    max-width: 30%;
+    padding-top: 220px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+}
+
+.slidetext h2 {
+    font-size: 4vw;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.nav-item a {
+    color: black;
+}
+
+.mycontainer2,
+.mycontainer3,
+.mycontainer4,
+.mycontainer5 {
+    display: flex;
+}
+
+.mycontainer3,
+.mycontainer5 {
+    flex-direction: row-reverse;
+}
+
+.altmycontainer4 {
+    display: none;
+}
+
+.mydropdown {
+    display: none;
+}
+
+.leftpanel {
+    min-width: 25%;
+    font-size: 2.2vw;
+    background-color: #A5C9CA;
+}
+
+.leftpanel1 {
+    min-width: 25%;
+    font-size: 3vw;
+    background-color: #222831;
+}
+
+.rightpanel {
+    background-color: #222831;
+}
+
+.rightpanel h1 {
+    font-size: 2.2vw;
+}
+
+.rightpanel p {
+    font-size: 1.5vw;
+}
+
+.rightpanel div {
+    text-align: center;
+}
+
+.rightpanel1 {
+    background-color: #A5C9CA;
+}
+
+.rightpanel1 p {
+    font-size: 2vw;
+}
+
+.mybtn {
+    font-size: 1.1vw;
+    margin-bottom: 10px;
+}
+
+.mycontainer6 p {
+    font-size: 2vw;
+}
+
+.mycontainer6 h1{
+    font-size: 2.2vw;
+}
+
+.mycontainer6 p{
+    font-size: 1.5vw;
+}
+
+.buttonone{
+    color: white;
+    padding: 0.7vw 2vw;
+    margin-bottom: 2vw;
+    font-size: 1.1vw;
+}
+
+.buttonone:hover{
+    background-image:linear-gradient(to right, #09008a, #6358fb);  
+}
+
+@media screen and (max-width:1030px) {
+}
+
+@media screen and (max-width:700px) {
+    .slideshow {
+        text-align: center;
+    }
+
+    .slidetext {
+        min-width: 100%;
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+    .slidetext div h2 {
+        background-color: #222831;
+        font-size: 5vw;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .mybtn {
+        font-size: 4vw;
+        margin-bottom: 10px;
+    }
+
+    .mycontainer1 {
+        display: none;
+    }
+
+    .mydropdown {
+        display: block;
+    }
+
+    .mydropdown li a {
+        color: black;
+        font-size: 4vw;
+        padding: 10px;
+    }
+
+    .mycontainer2,
+    .mycontainer3,
+    .altmycontainer4,
+    .mycontainer5 {
+        display: block;
+    }
+
+    .mycontainer2 h4,
+    .mycontainer3 h4,
+    .altmycontainer4 h4,
+    .mycontainer5 h4,
+    .rightpanel h1,
+    .mycontainer6 h1{
+        font-size: 4.5vw;
+    }
+
+    .mycontainer2 p,
+    .mycontainer3 p,
+    .altmycontainer4 p,
+    .mycontainer5 p, .mycontainer6 p {
+        font-size: 4vw;
+    }
+
+    .mycontainer4 {
+        display: none;
+    }
+
+    .buttonone{
+        font-size: 4vw;
+    }
+}

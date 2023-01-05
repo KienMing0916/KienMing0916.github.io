@@ -1,0 +1,202 @@
+.slideshow {
+    background-image: url(../img/contactbg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.slideshow h1 {
+    font-size: 4vw;
+    text-shadow: 7px 7px 5px black;
+}
+
+.altslideshow h1{
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+
+.slidetext h3 {
+    font-size: 2.5vw;
+    text-shadow: 7px 7px 5px black;
+}
+
+.slidetext {
+    max-width: 30%;
+    padding-top: 220px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    text-shadow: 7px 7px 5px black;
+}
+
+.nav-item a {
+    color: black;
+}
+
+.altslideshow{
+    display: none;
+}
+
+.leftpanel {
+    min-width: 25%;
+    font-size: 3vw;
+    background-color: #222831;
+}
+
+.leftpanel a {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.rightpanel,
+.rightpanel1 {
+    background-color: #a5c9ca;
+}
+
+.mycontainer1 {
+    display: flex;
+}
+
+.rightpanel h1{
+    font-size: 2.2vw;
+}
+
+#scrollspyHeading2{
+    font-size: 2.2vw;
+}
+
+.rightpanel1 p {
+    font-size: 1.5vw;
+}
+
+.rightflex {
+    display: flex;
+}
+
+.rightflex div {
+    border: black solid 2px;
+    padding: 50px;
+    flex: 1;
+}
+
+.rightflex div h1{
+    font-size: 2.2vw;
+}
+
+.rightflex div p a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.rightflex div a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}
+
+.mycontainer2 {
+    background-color: #E2DCC8;
+}
+
+.mycontainer2 h1{
+    font-size: 2.2vw;
+}
+
+.mycontainer3 {
+    display: flex;
+}
+
+.mycontainer3 div {
+    flex: 1;
+    text-align: center;
+    padding: 70px;
+    border: black solid 2px;
+    background-color: #cfcfcf;
+}
+
+.mycontainer3 div h1{
+    font-size: 2.2vw;
+}
+
+.mycontainer3 div a{
+    font-size: 1.5vw;
+}
+
+.nav-link h3{
+    font-size: 1.5vw;
+}
+
+.rightflex a:hover, .mycontainer3 a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:950px) {
+    .rightflex{
+        display: block;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .leftpanel{
+       display: none; 
+    }
+    .slideshow{
+        display: none;
+    }
+
+    .altslideshow{
+        background-image: url(../img/servicebg1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        display: block;
+    }
+
+    .slidetext {
+        background-color: #222831;
+        max-width: 100%;
+        margin: auto;
+        padding-top: 2px;
+        padding-bottom: 50px;
+        text-shadow: 7px 7px 5px black;
+        text-align: center;
+    }
+
+    .slidetext h1 {
+        font-size: 5vw;
+    }
+
+    .slidetext h3 {
+        font-size: 4.5vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+    
+    .rightpanel h1, #scrollspyHeading2, .rightflex div h1,.mycontainer2 h1, .mycontainer3 div h1{
+        font-size: 4.5vw;
+    }
+
+    .rightpanel p, .rightpanel1 p, .rightflex div a, .mycontainer3 div a, .nav-link h3{
+        font-size: 4vw;
+    }
+
+    .nav li a{
+        font-size: 20px;
+    }
+
+    .mycontainer1{
+        display: block;
+    }
+
+    .rightflex div{
+        padding: 20px;
+    }
+
+    .mycontainer3{
+        display: block;
+    }
+}

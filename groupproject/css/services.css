@@ -9,7 +9,7 @@
 }
 
 #titlediv h3{
-    font-size: 2.2vw;
+    font-size: 2.5vw;
     padding-bottom: 1vw;
 }
 
@@ -142,6 +142,10 @@ h1.verticaltext {
 }
 
 @media screen and (max-width:768px) {
+    .col-md-6{
+        padding: 0;
+    }
+
     .titlebutton{
         font-size: 2.5vw;
     }
@@ -161,7 +165,7 @@ h1.verticaltext {
     }
 
     .col-md-10 h3{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
     .flipbox{
@@ -216,20 +220,11 @@ h1.verticaltext {
         font-size: 2.5vw;
     }
 
-    .col-md-6.accordioncolone{
-        padding-bottom: 0;
-        padding-top: 0;
-    }
-
-    .col-md-6.accordioncoltwo{
-        padding-top: 0;
-    }
-
 }
 
 @media screen and (max-width:526px) {
     .titlebutton{
-        font-size: 3.5vw;
+        font-size: 4vw;
     }
 
     #titlediv h1, h1.verticaltext, .benefits{
@@ -241,7 +236,7 @@ h1.verticaltext {
     }
 
     li, .col-md-10 p{
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .flipbox-back p{
@@ -249,7 +244,7 @@ h1.verticaltext {
     }
 
     #titlediv h3{
-        font-size: 3.5vw;
+        font-size: 4.5vw;
     }
 
     .flipbox img{
@@ -257,7 +252,7 @@ h1.verticaltext {
     }
 
     .accordion-item h5{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .accordion-item p{

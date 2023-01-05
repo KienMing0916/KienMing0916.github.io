@@ -1,77 +1,325 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>HTY - Malaysia | HTY</title>
-        <link rel="icon" type="image/x-icon" href="img/HTYlogo.png">
-        <link href="css/index.css" rel="stylesheet" />
-        <link href="css/headerfooter.css" rel="stylesheet">
-        <link href="css/services.css" rel="stylesheet"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/c3573e9c36.js" crossorigin="anonymous"></script>  
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="container-fluid ">
-            <div class="container-fluid d-flex justify-content-center">
-                <div class="row align-items-start">
-                    <div class="col p-4">
-                        <h1 class="benefits">Blog</h1>
-                    </div>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/HTYlogo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/headerfooter.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/26fd815f16.js" crossorigin="anonymous"></script>
+    <title>HTY Blog | HTY</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Gentium+Book+Basic&family=Lato:wght@700&family=Orbitron:wght@500&family=Poiret+One&family=Poppins:wght@900&family=Roboto:wght@300&family=Rubik:wght@300&family=Secular+One&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-md bg-dark">
+            <div class="container-lg">
+                <a class="navbar gap-1 navbar-brand" href="index.html"><img src="img/HTYlogo.png" width="60px">
+                    <h1 class="text-light border-end px-3 border-light">HTY</h1>
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav gap-5">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light rounded" aria-current="page" href="about.html">
+                                <h4>About</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-light rounded" href="#" role="" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <h4 class="dropdown-toggle">Service</h4>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="service.html">Introduction</a></li>
+                                <li><a class="dropdown-item" href="aisolution.html">Artificial Intelligence</a></li>
+                                <li><a class="dropdown-item" href="application.html">Application</a></li>
+                                <li><a class="dropdown-item" href="server.html">Server</a></li>
+                                <li><a class="dropdown-item" href="database.html">Database</a></li>
+                                <li><a class="dropdown-item" href="network.html">Networking</a></li>
+                                <li><a class="dropdown-item" href="os.html">Operating System</a></li>
+                                <li><a class="dropdown-item" href="website.html">Website</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light rounded" href="blog.html">
+                                <h4>Blog</h4>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light rounded" href="contact.html">
+                                <h4>Contact</h4>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="rowforblog d-flex justify-content-center">
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Leading the future of semiconductors in Japan to power the devices of tomorrow</h3>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Rclone enhancements for cloud storage management</h3>
-                </div>
-            </div>
-            <div class="rowforblog d-flex justify-content-center">
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Leading the future of semiconductors in Japan to power the devices of tomorrow</h3>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Rclone enhancements for cloud storage management</h3>
-                </div>
-            </div>
-            <div class="rowforblog d-flex justify-content-center">
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Leading the future of semiconductors in Japan to power the devices of tomorrow</h3>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Rclone enhancements for cloud storage management</h3>
-                </div>
-            </div>
-            <div class="rowforblog d-flex justify-content-center">
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Leading the future of semiconductors in Japan to power the devices of tomorrow</h3>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-center p-5">
-                    <img src="img/operation.png" alt="" width="100px">
-                    <h3>Rclone enhancements for cloud storage management</h3>
+        </nav>
+
+        <div class="slideshow">
+            <h1 class="text-light mx-5 pt-5">Blog</h1>
+            <div class="myslidecontainer">
+                <div class="slidetext">
+                    <h3 class="text-light">All our research is here！
+                    </h3>
                 </div>
             </div>
         </div>
 
-        
+        <div class="altslideshow">
+            <h1 class="text-light mx-5 py-5">Blog</h1>
+            <div class="myslidecontainer">
+                <div class="slidetext">
+                    <h1 class="text-light mx-5 pt-5">Learn us more~</h1>
+                    <h3 class="text-light">All our research is here！
+                    </h3>
+                </div>
+            </div>
+        </div>
 
-        
+        <div class="mycontainer1">
+            <div class="flexcontainer">
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog1.jpg" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/news.png" width="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">News</p>
+                            <p class="ps-3">13 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/rapidus-ibm-2nm-chips" target="_blank">
+                            <h4>Leading the future of semiconductors in Japan to power the devices of tomorrow</h4>
+                        </a>
+                    </div>
 
-        
-        <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"
-    ></script>  
-    </body>
+                </div>
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog2.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/notes.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">Technical Note</p>
+                            <p class="ps-3">19 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/rclone-cloud-storage-management" target="_blank">
+                            <h4>Rclone enhancements for cloud storage management</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flexcontainer">
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog3.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/notes.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">Technical Note</p>
+                            <p class="ps-3">16 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/federated-learning-homomorphic-encryption" target="_blank">
+                            <h4>Federated Learning meets Homomorphic Encryption</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog4.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/news.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">News</p>
+                            <p class="ps-3">14 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/understanding-quantum-course" target="_blank">
+                            <h4>Understanding quantum information and computation</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flexcontainer">
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog5.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/news.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">News</p>
+                            <p class="ps-3">13 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/quantum-challenge-fall-2022-results" target="_blank">
+                            <h4>HTY Quantum Challenge Fall 2022 results</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog6.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/search.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">Research</p>
+                            <p class="ps-3">08 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/why-we-need-analog-AI-hardware" target="_blank">
+                            <h4>The future of analog AI hardware</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flexcontainer">
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog7.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/release.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">Release</p>
+                            <p class="ps-3">13 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/ibm-simulation-toolkit" target="_blank">
+                            <h4>HTY’s new open-source toolkit for simulation</h4>
+                        </a>
+                    </div>
+                </div>
+                <div class="innercontainer">
+                    <div class="imgcontainer">
+                        <img src="img/blog8.jpg" alt="" width="100%">
+                    </div>
+                    <div class="logotext">
+                        <div class="pt-4">
+                            <img src="img/notes.png" alt="" width="50px" height="50px">
+                        </div>
+                        <div class="pt-4 d-block">
+                            <p class="ps-3 m-0">Technical Note</p>
+                            <p class="ps-3">19 DEC 2022</p>
+                        </div>
+                    </div>
+                    <div class="maintext pb-5">
+                        <a href="https://research.ibm.com/blog/fhe-cloud-security-hE4cloud" target="_blank">
+                            <h4>The ultimate tool for data privacy: Fully homomorphic encryption</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer bg-dark p-3 d-flex justify-content-around">
+            <div class="cell text-light">
+                <a class="nav-link" href="index.html">
+                    <h6 class="fw-bold">HTY TECHNO</h6>
+                </a>
+                <a class="nav-link" href="about.html">
+                    <h6>About</h6>
+                </a>
+                <a class="nav-link" href="service.html">
+                    <h6>Service</h6>
+                </a>
+                <a class="nav-link" href="blog.html">
+                    <h6>Blog</h6>
+                </a>
+                <a class="nav-link" href="contact.html">
+                    <h6>Contact</h6>
+                </a>
+            </div>
+
+            <div class="text-light">
+                <h6 class="fw-bold">Services</h6>
+                <a class="nav-link" href="aisolution.html">
+                    <h6>Artificial Intelligence</h6>
+                </a>
+                <a class="nav-link" href="application.html">
+                    <h6>Application</h6>
+                </a>
+                <a class="nav-link" href="server.html">
+                    <h6>Server</h6>
+                </a>
+                <a class="nav-link" href="database.html">
+                    <h6>Database</h6>
+                </a>
+            </div>
+
+            <div class="cell text-light">
+                <h10><br></h10>
+                <a class="nav-link" href="network.html">
+                    <h6>Networking</h6>
+                </a>
+                <a class="nav-link" href="os.html">
+                    <h6>Operating System</h6>
+                </a>
+                <a class="nav-link" href="website.html">
+                    <h6>Website</h6>
+                </a>
+            </div>
+
+            <div class="cell text-light text-center">
+                <h6 class="fw-bold">Follow Us</h6>
+                <div class="social">
+                    <a class="nav-link" href="https://www.facebook.com/zhu.zhu.98499" target="_blank">
+                        <h6 class="rounded-circle p-2 bg-light"><img src="img/facebook.png" alt="" width="30px"
+                                height="30px"></h6>
+                    </a>
+                    <a class="nav-link" href="https://www.instagram.com/jirohaw_0214/" target="_blank">
+                        <h6 class="rounded-circle p-2 bg-light"><img src="img/instagram.png" alt="" width="30px"></h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
